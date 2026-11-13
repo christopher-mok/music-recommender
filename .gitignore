@@ -1,0 +1,73 @@
+# AI assistant / coding agent files — keep out of the repo
+
+# Claude / Claude Code
+.claude/
+.claude.json
+.claude.json.*
+CLAUDE.md
+CLAUDE.local.md
+.claudeignore
+.mcp.json
+
+# Generic agent files
+AGENTS.md
+AGENT.md
+.agents/
+.agent/
+
+# OpenAI Codex
+.codex/
+
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+
+# GitHub Copilot
+.copilot/
+.github/copilot-instructions.md
+.github/instructions/
+
+# Gemini
+.gemini/
+GEMINI.md
+
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeium/
+
+# Aider
+.aider*
+
+# Cline / Roo / Kilo
+.cline/
+.clinerules
+.clinerules/
+.roo/
+.roorules
+.roomodes
+.kilocode/
+
+# Continue
+.continue/
+.continuerules
+
+# Others
+.pi/
+.zed/
+.junie/
+.amazonq/
+.augment/
+.augment-guidelines
+.goosehints
+.opencode/
+.serena/
+
+# Build output and dependencies
+node_modules/
+dist/
+
+# macOS
+.DS_Store
