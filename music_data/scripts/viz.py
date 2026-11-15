@@ -45,6 +45,9 @@ def _resolve_db_path() -> str:
 
 
 DB_PATH = os.environ.get("MUSIC_DATA_DB", "") or _resolve_db_path()
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+from music_data.database import attach_embeddings  # noqa: E402
 CACHE_DIR = Path(__file__).resolve().parent.parent / ".cache" / "music_viz"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -74,17 +77,20 @@ def get_ro_conn() -> sqlite3.Connection:
     """Return a read-only connection to the DB (mode=ro, query_only)."""
     uri = Path(DB_PATH).expanduser().resolve().as_uri() + "?mode=ro"
     conn = sqlite3.connect(uri, uri=True)
+    attach_embeddings(conn, DB_PATH, read_only=True)
     conn.execute("PRAGMA query_only=ON")
     conn.row_factory = sqlite3.Row
     return conn
 
 
 def table_row_counts(conn: sqlite3.Connection) -> Dict[str, int]:
-    """Return {table: count} for every user table."""
-    rows = conn.execute(
-        "SELECT name FROM sqlite_master WHERE type='table' "
-        "AND name NOT LIKE 'sqlite_%' ORDER BY name"
-    ).fetchall()
+    """Return {table: count} for every user table (main + attached embeddings)."""
+    sql = ("SELECT name FROM {s}.sqlite_master WHERE type='table' "
+           "AND name NOT LIKE 'sqlite_%'")
+    schemas = [r[1] for r in conn.execute("PRAGMA database_list") if r[1] != "temp"]
+    rows = sorted(
+        {(r[0],) for s in schemas for r in conn.execute(sql.format(s=s)).fetchall()}
+    )
     result: Dict[str, int] = {}
     for r in rows:
         tname = r[0]

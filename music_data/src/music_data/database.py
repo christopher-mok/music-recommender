@@ -28,11 +28,45 @@ def _utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).strftime("%Y-%m-%d %H:%M:%S")
 
 
+# Embedding tables can live in a sibling file so neither file exceeds GitHub's
+# 100 MB limit (see scripts/split_embeddings_db.py). When that file exists it is
+# ATTACHed as schema "emb"; unqualified table names still resolve to it as long
+# as main has no table of the same name.
+EMBEDDING_TABLES = ("embedding_specs", "embeddings", "artist_vectors")
+EMBEDDINGS_SCHEMA = "emb"
+
+
+def embeddings_db_path(db_path: str | Path) -> Path:
+    """``data/foo.db`` -> ``data/foo.embeddings.db``."""
+    p = Path(db_path).expanduser()
+    return p.with_name(f"{p.stem}.embeddings{p.suffix or '.db'}")
+
+
+def attach_embeddings(
+    conn: sqlite3.Connection, db_path: str | Path, *, read_only: bool = False
+) -> bool:
+    """ATTACH the sibling embeddings DB if present. Returns True if attached."""
+    if str(db_path) == ":memory:":
+        return False
+    emb = embeddings_db_path(db_path).resolve()
+    if not emb.exists():
+        return False
+    if read_only:
+        conn.execute(
+            f"ATTACH DATABASE ? AS {EMBEDDINGS_SCHEMA}", (emb.as_uri() + "?mode=ro",)
+        )
+    else:
+        conn.execute(f"ATTACH DATABASE ? AS {EMBEDDINGS_SCHEMA}", (str(emb),))
+        conn.execute(f"PRAGMA {EMBEDDINGS_SCHEMA}.journal_mode=WAL")
+    return True
+
+
 def connect(db_path: str | Path) -> sqlite3.Connection:
     """Open and configure a SQLite connection.
 
     ``:memory:`` is passed through untouched; other paths are expanded and
-    their parent directories are created.
+    their parent directories are created. A sibling ``<name>.embeddings.db``
+    is attached automatically when present.
     """
     path = str(db_path)
     if path == ":memory:":
@@ -40,8 +74,10 @@ def connect(db_path: str | Path) -> sqlite3.Connection:
     else:
         resolved = Path(path).expanduser()
         resolved.parent.mkdir(parents=True, exist_ok=True)
-        conn = sqlite3.connect(str(resolved))
+        # uri=True lets attach_embeddings use file: URIs (no effect on plain paths)
+        conn = sqlite3.connect(str(resolved), uri=True)
         conn.execute("PRAGMA journal_mode=WAL")
+        attach_embeddings(conn, resolved)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys=ON")
     conn.execute("PRAGMA busy_timeout=5000")

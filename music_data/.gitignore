@@ -57,3 +57,7 @@ desktop.ini
 # Published bundle is committed so app devs need no Python setup
 !/api_bundle/music.db
 !/ts/dist/
+
+# Committed DB, split in two so each file stays under GitHub's 100 MB limit
+!/data/music_metadata_100.db
+!/data/music_metadata_100.embeddings.db

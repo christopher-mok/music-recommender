@@ -27,13 +27,20 @@ pip install -e ".[dev]"
 copy .env.example .env          # then add your API keys
 ```
 
-The full working database is committed gzipped (`music_data/data/music_metadata_100.db.gz`) because the raw file (~120 MB) is over GitHub's 100 MB limit. Unzip it once after cloning (from `music_data/`):
+The full working database is committed as two SQLite files so each stays under GitHub's 100 MB limit:
+
+- `music_data/data/music_metadata_100.db`: all metadata (~42 MB)
+- `music_data/data/music_metadata_100.embeddings.db`: `embedding_specs`, `embeddings`, `artist_vectors` (~84 MB)
+
+There's nothing to unzip or merge. `music_data.database.connect()` attaches the embeddings file automatically, so queries work as if it were one database. To open it outside the pipeline (e.g. DB Browser or plain `sqlite3`), open the main file and run `ATTACH 'music_metadata_100.embeddings.db' AS emb;`.
+
+If a pipeline run creates embeddings in a database that has no `.embeddings.db` sibling yet, move them out before committing (from `music_data/`):
 
 ```bash
-python -c "import gzip,shutil; shutil.copyfileobj(gzip.open('data/music_metadata_100.db.gz'), open('data/music_metadata_100.db','wb'))"
+python scripts/split_embeddings_db.py data/music_metadata_100.db
 ```
 
-After regenerating data, republish the bundle into `music_data/api_bundle/`. If you change `music_data/ts/src`, run `npm run build` in `music_data/ts`. Commit both outputs. Only re-gzip and commit the full DB at milestones; each version adds ~70 MB to the repo history permanently.
+After regenerating data, republish the bundle into `music_data/api_bundle/`. If you change `music_data/ts/src`, run `npm run build` in `music_data/ts`. Commit both outputs. Commit the DB files at milestones rather than after every run: each version stays in the repo history permanently, and the embeddings file has ~15 MB of headroom before the 100 MB limit.
 
 Other scripts:
 

@@ -638,6 +638,9 @@ def publish(
 
     # Open source DB in read-only mode
     src_conn = sqlite3.connect(f"file:{src_db_path}?mode=ro", uri=True)
+    from music_data.database import attach_embeddings
+
+    attach_embeddings(src_conn, src_db_path, read_only=True)
     src_conn.row_factory = sqlite3.Row
 
     try:

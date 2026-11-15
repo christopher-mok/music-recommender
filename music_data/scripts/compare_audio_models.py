@@ -27,6 +27,7 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from music_data.database import attach_embeddings  # noqa: E402
 from music_data.embeddings.blob_helpers import blob_to_array  # noqa: E402
 
 
@@ -123,7 +124,8 @@ def main():
         gs = {artist_genre[a] for a in artists if a in artist_genre}
         return gs.pop() if len(gs) == 1 else "mixed"
 
-    conn = sqlite3.connect(args.db)
+    conn = sqlite3.connect(args.db, uri=True)
+    attach_embeddings(conn, args.db, read_only=True)
     specs = conn.execute(
         "SELECT spec_hash, model_name, dim, spec_json FROM embedding_specs "
         "WHERE modality = 'audio' ORDER BY model_name").fetchall()
