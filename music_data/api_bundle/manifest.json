@@ -1,0 +1,63 @@
+{
+  "bundle_version": "1.0.0",
+  "build_time": "2026-11-15 18:02:11",
+  "source": "music_data pipeline",
+  "artists": {
+    "complete": 1753,
+    "stub": 11074,
+    "total": 12827
+  },
+  "tracks": 10353,
+  "genres": 4649,
+  "aliases": 6167,
+  "similarity_edges": 43093,
+  "embeddings": {
+    "audio": {
+      "count": 1701,
+      "dim": 512,
+      "model": "muq-mulan"
+    },
+    "text": {
+      "count": 1753,
+      "dim": 384,
+      "model": "allminilm"
+    },
+    "tracks": {
+      "count": 8029,
+      "dim": 512,
+      "model": "muq-mulan"
+    }
+  },
+  "spec_muq-mulan": {
+    "spec_hash": "cd8ee60e4b1799fa63e35d4f9301298ff02df2ca8d668a1753dd33052d32fe69",
+    "spec": {
+      "model": "OpenMuQ/MuQ-MuLan-large",
+      "revision": "2e01c796b71dca71b45251384c04cd7b237c9020",
+      "dim": 512,
+      "dtype": "float32",
+      "normalization": "l2",
+      "sample_rate": 24000,
+      "mono": true,
+      "window_seconds": 10.0,
+      "hop_seconds": 10.0,
+      "resampler": "librosa.load(soxr_hq)"
+    },
+    "model_name": "muq-mulan",
+    "modality": "audio",
+    "dim": 512
+  },
+  "spec_allminilm": {
+    "spec_hash": "4e64fdab4cf8c87f1fb178bc0bca6a99727bfbcb28a084d3678f38efc423b669",
+    "spec": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "main",
+      "dim": 384,
+      "dtype": "float32",
+      "normalization": "l2",
+      "template": null
+    },
+    "model_name": "allminilm",
+    "modality": "text",
+    "dim": 384
+  }
+}

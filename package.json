@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "music-data": "file:./music_data/ts",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

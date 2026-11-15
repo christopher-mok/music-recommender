@@ -1,0 +1,1147 @@
+# Requested artists to fully collect before the broad search.
+# Started from Spotify Weekly Top Artists Global (week of Nov 5, 2026):
+# the ones that were stubs or missing in data/music_metadata_100.db.
+# Add more [[collect.artists]] entries under 'Your additions'. Pin `mbid`
+# (from musicbrainz.org) for common names; `country` is a tie-break hint.
+
+# --- Spotify top 200: stubs in DB (need full collection) ---
+
+[[collect.artists]]
+name = "Fuerza Regida"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "KAROL G"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Pritam"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Myke Towers"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Feid"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Daniel Caesar"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Romeo Santos"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "PARTYNEXTDOOR"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "YoungBoy Never Broke Again"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Udit Narayan"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Gunna"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Steve Lacy"
+mbid = "b29020d6-5dbf-4c99-b16f-c009f8a712ff"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Grupo Firme"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Luis Miguel"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "One Direction"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Atif Aslam"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Dominic Fike"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Sachin-Jigar"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Yeat"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Vishal-Shekhar"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "50 Cent"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Arcángel"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "La Arrolladora Banda El Limón De Rene Camacho"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Lil Peep"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "JENNIE"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Ñengo Flow"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Mithoon"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "LANY"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Kodak Black"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Ashe"
+country = "US"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Alicia Keys"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "S. P. Balasubrahmanyam"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Plan B"
+country = "PR"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "XXXTENTACION"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Anitta"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Manuel Turizo"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Banda MS de Sergio Lizárraga"
+reason = "Spotify global top 200 (Nov 5 2026); stub in DB"
+
+# --- Spotify top 200: missing from DB ---
+
+[[collect.artists]]
+name = "Junior H"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Peso Pluma"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Victor Mendivil"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Omar Courtz"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Neton Vega"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Anirudh Ravichander"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Tito Double P"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Morgan Wallen"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Natanael Cano"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Zach Bryan"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "MC Ryan SP"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "sombr"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "ADÉLA"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "SIENNA SPIRO"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Blessd"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Quevedo"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Ella Langley"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Malcolm Todd"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Henrique & Juliano"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Panda"
+country = "MX"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Sai Abhyankkar"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Alex Warren"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "MC Meno K"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Felipe e Rodrigo"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Teddy Swims"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Luis R Conriquez"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "rusowsky"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Luke Combs"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Karan Aujla"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Omar Camacho"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Amitabh Bhattacharya"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Oscar Maydon"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Ryan Castro"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Milo j"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Sayeed Quadri"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Calle 24"
+country = "MX"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Zé Neto & Cristiano"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Irshad Kamil"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Cris MJ"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "HUGEL"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Raim Laode"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Mc IG"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Beéle"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "BigXthaPlug"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "MC Jvila"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Judeline"
+reason = "Spotify global top 200 (Nov 5 2026); missing from DB"
+
+# --- Your additions ---
+# Spotify Top Artists USA (Oct 30 - Nov 5 2026)
+
+[[collect.artists]]
+name = "Rod Wave"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Brent Faiyaz"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "A Boogie Wit da Hoodie"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Bryson Tiller"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Trippie Redd"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Miguel"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Jason Aldean"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Nickelback"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Lil Durk"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Jhené Aiko"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Tory Lanez"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Staind"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Gucci Mane"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "George Strait"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "DaBaby"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Moneybagg Yo"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Kacey Musgraves"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Lil Tecca"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Marshmello"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Migos"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Luke Bryan"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); stub in DB"
+
+[[collect.artists]]
+name = "Chris Stapleton"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Riley Green"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Treaty Oak Revival"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Lin-Manuel Miranda"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "LUCKI"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Cody Johnson"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Forrest Frank"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Tyler Childers"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "LOS DOS DE TAMAULIPAS"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Kevin Gates"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Elevation Worship"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Young Dolph"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Jon Pardi"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Ken Carson"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Key Glock"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Megan Moroney"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+[[collect.artists]]
+name = "Koe Wetzel"
+reason = "Spotify Top Artists USA (Oct 30 - Nov 5 2026); missing from DB"
+
+# Personal picks (indie / bedroom pop / alt R&B)
+
+[[collect.artists]]
+name = "keshi"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Rei Brown"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Jeremy Zucker"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Chelsea Cutler"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "grentperez"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Colde"
+country = "KR"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Puma Blue"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "6LACK"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Alec Benjamin"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Rex Orange County"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "boy pablo"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Gus Dapperton"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "DEAN"
+mbid = "2b983abf-ef53-483e-a5f0-356e745008bd"
+country = "KR"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Crush"
+country = "KR"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "chloe moriondo"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "mxmtoon"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Sasha Alex Sloan"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "Lauv"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "The Japanese House"
+reason = "Personal picks (indie / bedroom pop / alt R&B); stub in DB"
+
+[[collect.artists]]
+name = "joon"
+mbid = "5c677f60-6b1c-4667-b5f8-0e27d7c460d7"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "starfall"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "wave to earth"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "dhruv"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Hojean"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "slchld"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "HYBS"
+country = "TH"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Rini"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Luke Chiang"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Mac Ayres"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Phum Viphurit"
+country = "TH"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Jeff Bernat"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Rad Museum"
+country = "KR"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "The Millennial Club"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Christian Kuria"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "UMI"
+mbid = "29037fbf-ca05-4819-9f2b-de685b5b26b0"
+country = "US"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Destiny Rogers"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "oceanfromtheblue"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "brb."
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Jimmy Brown"
+mbid = "068c3af1-6ee4-45a2-82d3-a9a354508b3f"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Galdive"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Tabber"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Bruno Major"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "Sam Kim"
+country = "KR"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "slenderbodies"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+[[collect.artists]]
+name = "No Rome"
+reason = "Personal picks (indie / bedroom pop / alt R&B); missing from DB"
+
+# Party / rave / teen and college pop, incl. 2024-26 breakouts
+
+[[collect.artists]]
+name = "Kygo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Steve Aoki"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Diplo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Hardwell"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Gryffin"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "San Holo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "GRiZ"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Rezz"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Excision"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Subtronics"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Madeon"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Lost Frequencies"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Robin Schulz"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "John Summit"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Chris Lake"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Kaytranada"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "LMFAO"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Lil Jon"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Kim Petras"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Tinashe"
+mbid = "396a9525-0994-4542-b480-c4587feeb476"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Ice Spice"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Sexyy Red"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Lil Nas X"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Tyga"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Saweetie"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Lizzo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Rema"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Benson Boone"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Conan Gray"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Madison Beer"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "d4vd"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "NIKI"
+mbid = "0073a9e6-b4e5-454d-8d5c-1a0058b40ab5"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Wallows"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Role Model"
+mbid = "4c76d2ab-cc32-47b9-8bfe-d382bed617f6"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Ricky Montgomery"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "AJR"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "5 Seconds of Summer"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Niall Horan"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Lewis Capaldi"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Glass Animals"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Portugal. The Man"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Bazzi"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "mgk"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "ROSÉ"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Jessie Murph"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Ravyn Lenae"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Destroy Lonely"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Central Cee"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Barry Can't Swim"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "DJ Snake"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; stub in DB"
+
+[[collect.artists]]
+name = "Dimitri Vegas & Like Mike"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Louis The Child"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Svdden Death"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Knock2"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "ISOxo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Meduza"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Alok"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Anyma"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Tchami"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Malaa"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Fisher"
+mbid = "886dc0c9-3351-4d2d-b762-060cf1e66929"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Dom Dolla"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Mau P"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Purple Disco Machine"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Peggy Gou"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Sammy Virji"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Interplanetary Criminal"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Chris Stussy"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Charlotte de Witte"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Amelie Lens"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Sofi Tukker"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Duke Dumont"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Joel Corry"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Reneé Rapp"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Addison Rae"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Gigi Perez"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Tommy Richman"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Djo"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Louis Tomlinson"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Kenshi Yonezu"
+mbid = "09d4a85c-4916-4b4e-bc96-c4cfcf371046"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Shaboozey"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Lola Young"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Myles Smith"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Ethel Cain"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Dasha"
+mbid = "a500b896-7109-4d69-bc0f-cf6a04bfc78a"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Jake Minch"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Nettspend"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "OsamaSon"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "2hollis"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Che"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "EsDeeKid"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Fakemink"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Skrilla"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Kettama"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Disco Lines"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Westend"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Marlon Hoffstadt"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Sara Landry"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "I Hate Models"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Notion"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Joy Anonymous"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "salute"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+[[collect.artists]]
+name = "Two Friends"
+reason = "Party / rave / teen and college pop, incl. 2024-26 breakouts; missing from DB"
+
+
+[collect]
+tracks_per_artist = 5
+similar_limit = 50
+resume = false
+
+[database]
+path = "data/music_metadata_100.db"
+
+[http]
+timeout = 30.0
+max_retries = 5
+retry_delay = 1.0
+
+[cache]
+enabled = true
+read = true
+write = true
+directory = ".cache/music_data"
+ttl_seconds = 0
+
+[listenbrainz]
+enabled = true
+similar_limit = 50
+
+[lastfm]
+enabled = false
+
+[musicbrainz]
+enabled = true
+rate_limit = 1.0

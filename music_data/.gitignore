@@ -1,0 +1,59 @@
+# --- Environment / secrets ---
+.env
+.env.*
+!.env.example
+.venv/
+.venv-muq/
+venv/
+env/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# --- Databases / generated data ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+/data/archive/
+
+# --- API response cache ---
+.cache/
+
+# --- Generated reports / run output ---
+/reports/
+*.log
+
+# --- Generated artifacts ---
+/out/
+/_attic/
+ts/node_modules/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Published bundle is committed so app devs need no Python setup
+!/api_bundle/music.db
+!/ts/dist/

@@ -1,0 +1,130 @@
+# Growth pass 2026-11-13: fill genres/regions that were thin or empty in
+# music_metadata_100.db (counts = seeded artists with that genre, weight>=0.3).
+# Thinnest gaps get the largest counts. Use with --skip-collected.
+# Rock/metal/emo/shoegaze slots removed per user (already well covered).
+# Run: collect --quotas data/genre_quotas_gaps.toml --popular N --popular-range month --skip-collected
+
+default_count = 12
+
+# --- North America: big streaming genres that were under-weighted --------
+[[slots]]
+name = "country (modern, 2005+)"       # had 15
+query = '(tag:country OR tag:"contemporary country" OR tag:"country pop") AND begin:[2005 TO *]'
+count = 27
+
+[[slots]]
+name = "red dirt / americana"
+query = 'tag:americana OR tag:"red dirt" OR tag:"alt-country"'
+count = 12
+
+[[slots]]
+name = "regional mexican / corridos"    # had 6 / 2
+query = 'tag:"corridos tumbados" OR tag:corrido OR tag:"regional mexican" OR tag:"música mexicana" OR tag:banda OR tag:sierreño'
+count = 27
+
+[[slots]]
+name = "gospel / ccm / worship"         # had 2 / 0
+query = 'tag:"contemporary christian" OR tag:"christian pop" OR tag:worship OR tag:"contemporary gospel"'
+count = 22
+
+# --- Latin beyond reggaeton ----------------------------------------------
+[[slots]]
+name = "bachata / salsa / merengue"     # had 0-1
+query = 'tag:bachata OR tag:salsa OR tag:merengue'
+count = 20
+
+[[slots]]
+name = "cumbia / latin alternative"
+query = 'tag:cumbia OR tag:"latin alternative" OR tag:"rock en español"'
+count = 14
+
+# --- Hip hop / rap subgenres ---------------------------------------------
+[[slots]]
+name = "uk drill / grime / afroswing"   # had 0-1
+query = 'tag:"uk drill" OR tag:grime OR tag:afroswing OR tag:"uk hip hop"'
+count = 22
+
+[[slots]]
+name = "drill (us/ny/chicago)"
+query = 'tag:drill OR tag:"brooklyn drill"'
+count = 12
+
+[[slots]]
+name = "phonk"                          # had 0
+query = 'tag:phonk OR tag:"drift phonk"'
+count = 22
+
+# --- Africa ----------------------------------------------------------------
+[[slots]]
+name = "amapiano / gqom"                # had 3
+query = 'tag:amapiano OR tag:gqom'
+count = 22
+
+# --- South Asia / MENA / Turkey ------------------------------------------
+[[slots]]
+name = "punjabi / desi hip hop"         # had 0
+query = 'tag:punjabi OR tag:bhangra OR tag:"desi hip hop"'
+count = 20
+
+[[slots]]
+name = "indian indie / pop (non-filmi)"
+query = 'country:IN AND (tag:pop OR tag:indie OR tag:"indian pop") AND begin:[2005 TO *]'
+count = 12
+
+[[slots]]
+name = "turkish pop / rap"              # had 0
+query = 'tag:"turkish pop" OR tag:"turkish hip hop" OR (country:TR AND begin:[2000 TO *])'
+count = 14
+
+[[slots]]
+name = "arabic / khaleeji / mahraganat" # had 2
+query = 'tag:"arabic pop" OR tag:khaleeji OR tag:mahraganat OR tag:"arabic hip hop"'
+count = 14
+
+# --- East / Southeast Asia -----------------------------------------------
+[[slots]]
+name = "c-pop / mandopop / cantopop"    # had 0
+query = 'tag:mandopop OR tag:"c-pop" OR tag:cantopop'
+count = 20
+
+[[slots]]
+name = "opm / filipino"                 # had 0
+query = 'tag:opm OR tag:"p-pop" OR country:PH'
+count = 14
+
+[[slots]]
+name = "city pop / j-indie"             # had 0
+query = 'tag:"city pop" OR tag:"japanese indie" OR tag:"j-rock"'
+count = 14
+
+[[slots]]
+name = "thai / indonesian / vietnamese pop"
+query = 'tag:"t-pop" OR tag:"v-pop" OR tag:"indonesian pop" OR country:ID OR country:VN'
+count = 17
+
+# --- Electronic beyond house/dubstep --------------------------------------
+[[slots]]
+name = "techno"                         # had 5
+query = 'tag:techno AND begin:[1990 TO *]'
+count = 17
+
+[[slots]]
+name = "hardstyle / hard dance"         # had 0
+query = 'tag:hardstyle OR tag:"hard dance" OR tag:hardcore AND tag:gabber'
+count = 12
+
+[[slots]]
+name = "jersey club / uk garage / bass"
+query = 'tag:"jersey club" OR tag:"uk garage" OR tag:"2-step"'
+count = 17
+
+[[slots]]
+name = "lo-fi / chillhop"               # had 5
+query = 'tag:"lo-fi hip hop" OR tag:chillhop OR tag:"lo-fi"'
+count = 12
+
+# --- Screen / games -------------------------------------------------------
+[[slots]]
+name = "video game / anime soundtrack"  # had 0
+query = 'tag:"video game music" OR tag:"anime" OR tag:"game soundtrack"'
+count = 14

@@ -1,0 +1,647 @@
+# Proposed 100-artist seed list. MBIDs are resolved before a live run.
+# Existing 10 seeds keep their verified MBIDs where available.
+
+[[collect.artists]]
+name = "Radiohead"
+mbid = "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+country = "GB"
+genres = ["alternative rock", "electronic"]
+reason = "Alternative rock/electronic crossover; existing seed."
+
+[[collect.artists]]
+name = "Tame Impala"
+country = "AU"
+genres = ["psychedelic rock", "pop"]
+reason = "Australian psychedelic pop; existing seed."
+
+[[collect.artists]]
+name = "The Beatles"
+country = "GB"
+genres = ["rock", "pop"]
+reason = "Foundational rock/pop canon."
+
+[[collect.artists]]
+name = "David Bowie"
+country = "GB"
+genres = ["art rock", "pop"]
+reason = "Art rock and persona-driven pop across decades."
+
+[[collect.artists]]
+name = "Nirvana"
+country = "US"
+genres = ["grunge", "alternative rock"]
+reason = "Grunge/alternative breakthrough."
+
+[[collect.artists]]
+name = "Pixies"
+country = "US"
+genres = ["alternative rock", "indie"]
+reason = "Loud-quiet alternative template."
+
+[[collect.artists]]
+name = "The Cure"
+country = "GB"
+genres = ["post-punk", "gothic rock"]
+reason = "Post-punk/goth lineage."
+
+[[collect.artists]]
+name = "Joy Division"
+country = "GB"
+genres = ["post-punk"]
+reason = "Post-punk influence and Manchester scene."
+
+[[collect.artists]]
+name = "Talking Heads"
+country = "US"
+genres = ["new wave", "art rock"]
+reason = "New wave/art rock and global rhythms."
+
+[[collect.artists]]
+name = "Sonic Youth"
+country = "US"
+genres = ["noise rock", "alternative"]
+reason = "Noise rock/alternative bridge."
+
+[[collect.artists]]
+name = "My Bloody Valentine"
+country = "IE"
+genres = ["shoegaze"]
+reason = "Shoegaze/dream-pop reference point."
+
+[[collect.artists]]
+name = "The Smiths"
+country = "GB"
+genres = ["indie rock", "jangle pop"]
+reason = "British indie/jangle-pop canon."
+
+[[collect.artists]]
+name = "Led Zeppelin"
+country = "GB"
+genres = ["hard rock", "blues rock"]
+reason = "Hard rock/blues-rock canon."
+
+[[collect.artists]]
+name = "Pink Floyd"
+country = "GB"
+genres = ["progressive rock"]
+reason = "Progressive rock and album-oriented production."
+
+[[collect.artists]]
+name = "The Clash"
+country = "GB"
+genres = ["punk", "reggae"]
+reason = "Punk with reggae/dance crossover."
+
+[[collect.artists]]
+name = "Black Sabbath"
+country = "GB"
+genres = ["heavy metal"]
+reason = "Heavy metal origin point."
+
+[[collect.artists]]
+name = "Metallica"
+country = "US"
+genres = ["thrash metal"]
+reason = "Thrash/metal mainstream reach."
+
+[[collect.artists]]
+name = "Björk"
+country = "IS"
+genres = ["art pop", "electronic"]
+reason = "Art pop/electronic; existing seed."
+
+[[collect.artists]]
+name = "Michael Jackson"
+country = "US"
+genres = ["pop", "R&B"]
+reason = "Global pop/soul crossover."
+
+[[collect.artists]]
+name = "Prince"
+country = "US"
+genres = ["pop", "funk", "R&B"]
+reason = "Pop/funk/R&B auteur."
+
+[[collect.artists]]
+name = "Madonna"
+country = "US"
+genres = ["pop", "dance"]
+reason = "Dance-pop and reinvention."
+
+[[collect.artists]]
+name = "Whitney Houston"
+country = "US"
+genres = ["pop", "soul"]
+reason = "Vocal pop/soul canon."
+
+[[collect.artists]]
+name = "Beyoncé"
+country = "US"
+genres = ["pop", "R&B"]
+reason = "Contemporary pop/R&B and visual albums."
+
+[[collect.artists]]
+name = "Frank Ocean"
+country = "US"
+genres = ["R&B", "alternative"]
+reason = "Modern R&B/alternative songwriting."
+
+[[collect.artists]]
+name = "SZA"
+country = "US"
+genres = ["R&B", "pop"]
+reason = "Contemporary R&B/pop."
+
+[[collect.artists]]
+name = "Erykah Badu"
+country = "US"
+genres = ["neo soul", "R&B"]
+reason = "Neo-soul and hip-hop soul."
+
+[[collect.artists]]
+name = "Stevie Wonder"
+country = "US"
+genres = ["soul", "funk", "pop"]
+reason = "Soul/funk/pop songbook."
+
+[[collect.artists]]
+name = "Aretha Franklin"
+country = "US"
+genres = ["soul", "R&B"]
+reason = "Soul/gospel vocal canon."
+
+[[collect.artists]]
+name = "Amy Winehouse"
+country = "GB"
+genres = ["soul", "jazz pop"]
+reason = "Retro soul/jazz-pop crossover."
+
+[[collect.artists]]
+name = "M.I.A."
+mbid = "7cf0ea9d-86b9-4dad-ba9e-2355a64899ea"
+country = "GB"
+genres = ["electropop", "world"]
+reason = "Electropop/world; existing seed."
+
+[[collect.artists]]
+name = "Rihanna"
+country = "BB"
+genres = ["pop", "R&B"]
+reason = "Caribbean-rooted pop/R&B."
+
+[[collect.artists]]
+name = "Janelle Monáe"
+country = "US"
+genres = ["R&B", "funk"]
+reason = "Afrofuturist R&B/funk."
+
+[[collect.artists]]
+name = "FKA twigs"
+country = "GB"
+genres = ["art pop", "R&B"]
+reason = "Experimental art pop/R&B."
+
+[[collect.artists]]
+name = "Missy Elliott"
+country = "US"
+genres = ["hip hop", "R&B"]
+reason = "Hip-hop/R&B; existing seed."
+
+[[collect.artists]]
+name = "Kendrick Lamar"
+country = "US"
+genres = ["hip hop"]
+reason = "Contemporary hip-hop canon."
+
+[[collect.artists]]
+name = "Kanye West"
+mbid = "164f0d73-1234-4e2c-8743-d77bf2191051"
+country = "US"
+genres = ["hip hop"]
+reason = "Producer-driven hip-hop/pop."
+
+[[collect.artists]]
+name = "Jay-Z"
+country = "US"
+genres = ["hip hop"]
+reason = "East Coast hip-hop/business crossover."
+
+[[collect.artists]]
+name = "Nas"
+country = "US"
+genres = ["hip hop"]
+reason = "East Coast lyrical canon."
+
+[[collect.artists]]
+name = "Wu-Tang Clan"
+country = "US"
+genres = ["hip hop"]
+reason = "Collective/boom-bap influence."
+
+[[collect.artists]]
+name = "OutKast"
+country = "US"
+genres = ["hip hop", "funk"]
+reason = "Southern hip-hop/funk crossover."
+
+[[collect.artists]]
+name = "A Tribe Called Quest"
+country = "US"
+genres = ["hip hop", "jazz rap"]
+reason = "Jazz-rap/alternative hip-hop."
+
+[[collect.artists]]
+name = "Public Enemy"
+mbid = "bf2e15d0-4b77-469e-bfb4-f8414415baca"
+country = "US"
+genres = ["hip hop", "political"]
+reason = "Political hip-hop and sampling."
+
+[[collect.artists]]
+name = "Lauryn Hill"
+country = "US"
+genres = ["hip hop", "neo soul"]
+reason = "Hip-hop/neo-soul crossover."
+
+[[collect.artists]]
+name = "Drake"
+country = "CA"
+genres = ["hip hop", "pop"]
+reason = "Canadian hip-hop/pop crossover."
+
+[[collect.artists]]
+name = "Nicki Minaj"
+country = "TT"
+genres = ["hip hop", "pop"]
+reason = "Caribbean-rooted rap/pop."
+
+[[collect.artists]]
+name = "Aphex Twin"
+mbid = "f22942a1-6f70-4f48-866e-238cb2308fbd"
+country = "GB"
+genres = ["electronic", "ambient"]
+reason = "Electronic/ambient; existing seed."
+
+[[collect.artists]]
+name = "Yoko Ono"
+mbid = "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+country = "JP"
+genres = ["avant-garde", "experimental"]
+reason = "Avant-garde/experimental; existing seed."
+
+[[collect.artists]]
+name = "Daft Punk"
+country = "FR"
+genres = ["electronic", "house"]
+reason = "French house/electronic pop."
+
+[[collect.artists]]
+name = "Kraftwerk"
+country = "DE"
+genres = ["electronic", "synth-pop"]
+reason = "Electronic/synth-pop origin point."
+
+[[collect.artists]]
+name = "Brian Eno"
+country = "GB"
+genres = ["ambient", "art rock"]
+reason = "Ambient/art-rock production."
+
+[[collect.artists]]
+name = "Boards of Canada"
+country = "GB"
+genres = ["electronic", "ambient"]
+reason = "IDM/ambient nostalgia."
+
+[[collect.artists]]
+name = "Autechre"
+country = "GB"
+genres = ["IDM", "experimental"]
+reason = "IDM/experimental electronics."
+
+[[collect.artists]]
+name = "Four Tet"
+country = "GB"
+genres = ["electronic", "folktronica"]
+reason = "Folktronica/electronic."
+
+[[collect.artists]]
+name = "Burial"
+mbid = "9ddce51c-2b75-4b3e-ac8c-1db09e7c89c6"
+country = "GB"
+genres = ["dubstep", "ambient"]
+reason = "Dubstep/ambient UK lineage."
+
+[[collect.artists]]
+name = "Massive Attack"
+country = "GB"
+genres = ["trip hop", "electronic"]
+reason = "Trip-hop/downtempo."
+
+[[collect.artists]]
+name = "Portishead"
+country = "GB"
+genres = ["trip hop", "electronic"]
+reason = "Trip-hop and noir pop."
+
+[[collect.artists]]
+name = "SOPHIE"
+mbid = "774b02d7-5056-4b0f-9d69-a82b6ae27cde"
+country = "GB"
+genres = ["electronic", "hyperpop"]
+reason = "Hyperpop/experimental pop."
+
+[[collect.artists]]
+name = "Arca"
+mbid = "f7625f34-1799-42a4-a1c6-22b5377c767b"
+country = "VE"
+genres = ["electronic", "experimental"]
+reason = "Experimental electronic/art pop."
+
+[[collect.artists]]
+name = "Oneohtrix Point Never"
+country = "US"
+genres = ["electronic", "experimental"]
+reason = "Experimental electronic/sampling."
+
+[[collect.artists]]
+name = "Tim Hecker"
+country = "CA"
+genres = ["ambient", "experimental"]
+reason = "Ambient/noise composition."
+
+[[collect.artists]]
+name = "Miles Davis"
+country = "US"
+genres = ["jazz"]
+reason = "Jazz canon; existing seed."
+
+[[collect.artists]]
+name = "John Coltrane"
+country = "US"
+genres = ["jazz"]
+reason = "Modal/free jazz canon."
+
+[[collect.artists]]
+name = "Charles Mingus"
+country = "US"
+genres = ["jazz"]
+reason = "Composer-led jazz/big band."
+
+[[collect.artists]]
+name = "Thelonious Monk"
+country = "US"
+genres = ["jazz"]
+reason = "Bebop/hard-bop composer."
+
+[[collect.artists]]
+name = "Bill Evans"
+mbid = "8247a3f2-3a8e-4256-b322-6c57b03a4e36"
+country = "US"
+genres = ["jazz"]
+reason = "Piano-trio jazz."
+
+[[collect.artists]]
+name = "Herbie Hancock"
+country = "US"
+genres = ["jazz", "funk"]
+reason = "Jazz/funk/electronic crossover."
+
+[[collect.artists]]
+name = "Sun Ra"
+country = "US"
+genres = ["jazz", "avant-garde"]
+reason = "Afrofuturist jazz/big band."
+
+[[collect.artists]]
+name = "Alice Coltrane"
+country = "US"
+genres = ["jazz", "spiritual"]
+reason = "Spiritual jazz/harp."
+
+[[collect.artists]]
+name = "Nina Simone"
+country = "US"
+genres = ["jazz", "soul"]
+reason = "Jazz/soul/civil-rights voice."
+
+[[collect.artists]]
+name = "B.B. King"
+country = "US"
+genres = ["blues"]
+reason = "Electric blues canon."
+
+[[collect.artists]]
+name = "Muddy Waters"
+country = "US"
+genres = ["blues"]
+reason = "Chicago blues/rock influence."
+
+[[collect.artists]]
+name = "Etta James"
+country = "US"
+genres = ["blues", "soul"]
+reason = "Blues/soul/R&B crossover."
+
+[[collect.artists]]
+name = "Ólafur Arnalds"
+country = "IS"
+genres = ["neo-classical", "ambient"]
+reason = "Neo-classical/ambient; existing seed."
+
+[[collect.artists]]
+name = "Jóhann Jóhannsson"
+country = "IS"
+genres = ["modern classical", "ambient"]
+reason = "Modern classical/film composition."
+
+[[collect.artists]]
+name = "Hildur Guðnadóttir"
+country = "IS"
+genres = ["modern classical", "film score"]
+reason = "Contemporary cello/film score."
+
+[[collect.artists]]
+name = "Max Richter"
+country = "GB"
+genres = ["modern classical", "ambient"]
+reason = "Post-minimalist composition."
+
+[[collect.artists]]
+name = "Nils Frahm"
+country = "DE"
+genres = ["modern classical", "ambient"]
+reason = "Piano/electronic modern classical."
+
+[[collect.artists]]
+name = "Steve Reich"
+country = "US"
+genres = ["minimalism", "contemporary classical"]
+reason = "Minimalist composition."
+
+[[collect.artists]]
+name = "Fela Kuti"
+country = "NG"
+genres = ["afrobeat"]
+reason = "Afrobeat; existing seed."
+
+[[collect.artists]]
+name = "Bob Marley"
+country = "JM"
+genres = ["reggae"]
+reason = "Reggae/global Caribbean canon."
+
+[[collect.artists]]
+name = "Youssou N'Dour"
+country = "SN"
+genres = ["mbalax", "world"]
+reason = "Senegalese mbalax/global pop."
+
+[[collect.artists]]
+name = "Miriam Makeba"
+country = "ZA"
+genres = ["world", "afropop"]
+reason = "South African vocal/global anti-apartheid."
+
+[[collect.artists]]
+name = "Angélique Kidjo"
+country = "BJ"
+genres = ["afropop", "world"]
+reason = "Beninese afropop/global fusion."
+
+[[collect.artists]]
+name = "Ravi Shankar"
+country = "IN"
+genres = ["Hindustani classical"]
+reason = "Indian classical/sitar bridge."
+
+[[collect.artists]]
+name = "A.R. Rahman"
+mbid = "e0bba708-bdd3-478d-84ea-c706413bedab"
+country = "IN"
+genres = ["film score", "world"]
+reason = "Indian film music/global pop."
+
+[[collect.artists]]
+name = "Nusrat Fateh Ali Khan"
+country = "PK"
+genres = ["qawwali", "world"]
+reason = "Qawwali/global devotional music."
+
+[[collect.artists]]
+name = "Umm Kulthum"
+mbid = "0a354a70-b879-4697-ad9b-60bfe2bd1d63"
+country = "EG"
+genres = ["Arabic classical"]
+reason = "Arabic classical vocal canon."
+
+[[collect.artists]]
+name = "Fairuz"
+mbid = "338bbb53-5b96-447a-9444-8906844a0790"
+country = "LB"
+genres = ["Arabic", "world"]
+reason = "Lebanese Arabic vocal tradition."
+
+[[collect.artists]]
+name = "Mulatu Astatke"
+mbid = "67f0c7ca-14e8-47a3-be0e-bd2f2ffe25bb"
+country = "ET"
+genres = ["ethio-jazz"]
+reason = "Ethio-jazz/global jazz fusion."
+
+[[collect.artists]]
+name = "Cesária Évora"
+country = "CV"
+genres = ["morna", "world"]
+reason = "Cape Verdean morna/world."
+
+[[collect.artists]]
+name = "Caetano Veloso"
+country = "BR"
+genres = ["tropicália", "MPB"]
+reason = "Brazilian tropicália/MPB."
+
+[[collect.artists]]
+name = "Astor Piazzolla"
+country = "AR"
+genres = ["tango", "nuevo tango"]
+reason = "Argentine nuevo tango."
+
+[[collect.artists]]
+name = "Bad Bunny"
+country = "PR"
+genres = ["reggaeton", "Latin pop"]
+reason = "Contemporary Puerto Rican reggaeton/pop."
+
+[[collect.artists]]
+name = "Rosalía"
+country = "ES"
+genres = ["flamenco pop", "Latin pop"]
+reason = "Spanish flamenco-pop/global crossover."
+
+[[collect.artists]]
+name = "Bob Dylan"
+country = "US"
+genres = ["folk", "rock"]
+reason = "Folk/rock songwriting canon."
+
+[[collect.artists]]
+name = "Joni Mitchell"
+country = "CA"
+genres = ["folk", "pop"]
+reason = "Folk/pop songwriting and jazz inflections."
+
+[[collect.artists]]
+name = "Leonard Cohen"
+country = "CA"
+genres = ["folk", "poetry"]
+reason = "Folk/poetic songwriting."
+
+[[collect.artists]]
+name = "Johnny Cash"
+country = "US"
+genres = ["country", "rock"]
+reason = "Country/rock crossover canon."
+
+[[collect.artists]]
+name = "Dolly Parton"
+country = "US"
+genres = ["country", "pop"]
+reason = "Country/pop songwriting."
+
+[[collect.artists]]
+name = "Odetta"
+country = "US"
+genres = ["folk", "blues"]
+reason = "Folk/blues and civil-rights voice."
+
+[collect]
+tracks_per_artist = 5
+similar_limit = 50
+resume = false
+
+[database]
+path = "data/music_metadata_100.db"
+
+[http]
+timeout = 30.0
+max_retries = 5
+retry_delay = 1.0
+
+[cache]
+enabled = true
+read = true
+write = true
+directory = ".cache/music_data"
+ttl_seconds = 0
+
+[listenbrainz]
+enabled = true
+similar_limit = 50
+
+[lastfm]
+enabled = false
+
+[musicbrainz]
+enabled = true
+rate_limit = 1.0

@@ -1,0 +1,5541 @@
+[
+ {
+  "function": "dataset_info",
+  "args": [],
+  "expected": {
+   "bundle_version": "1.0.0",
+   "build_time": "2026-11-15 18:02:11",
+   "catalog_artists": 1753,
+   "uncatalogued_artists": 11074,
+   "tracks": 10353,
+   "genres": 532,
+   "audio_vectors": 1701,
+   "text_vectors": 1753
+  }
+ },
+ {
+  "function": "list_genres",
+  "args": [],
+  "expected": [
+   {
+    "genre": "pop",
+    "artist_count": 240
+   },
+   {
+    "genre": "electronic",
+    "artist_count": 194
+   },
+   {
+    "genre": "hip hop",
+    "artist_count": 183
+   },
+   {
+    "genre": "rock",
+    "artist_count": 127
+   },
+   {
+    "genre": "alternative rock",
+    "artist_count": 97
+   },
+   {
+    "genre": "indie pop",
+    "artist_count": 82
+   },
+   {
+    "genre": "indie rock",
+    "artist_count": 74
+   },
+   {
+    "genre": "latin",
+    "artist_count": 72
+   },
+   {
+    "genre": "pop rock",
+    "artist_count": 70
+   },
+   {
+    "genre": "dance-pop",
+    "artist_count": 69
+   },
+   {
+    "genre": "country",
+    "artist_count": 66
+   },
+   {
+    "genre": "r&b",
+    "artist_count": 66
+   },
+   {
+    "genre": "electropop",
+    "artist_count": 62
+   },
+   {
+    "genre": "k-pop",
+    "artist_count": 61
+   },
+   {
+    "genre": "soul",
+    "artist_count": 56
+   },
+   {
+    "genre": "trap",
+    "artist_count": 56
+   },
+   {
+    "genre": "house",
+    "artist_count": 52
+   },
+   {
+    "genre": "regional mexicano",
+    "artist_count": 46
+   },
+   {
+    "genre": "synthwave",
+    "artist_count": 45
+   },
+   {
+    "genre": "contemporary r&b",
+    "artist_count": 44
+   },
+   {
+    "genre": "dance",
+    "artist_count": 44
+   },
+   {
+    "genre": "synth-pop",
+    "artist_count": 43
+   },
+   {
+    "genre": "singer-songwriter",
+    "artist_count": 40
+   },
+   {
+    "genre": "dubstep",
+    "artist_count": 39
+   },
+   {
+    "genre": "jazz",
+    "artist_count": 37
+   },
+   {
+    "genre": "ambient",
+    "artist_count": 36
+   },
+   {
+    "genre": "contemporary christian",
+    "artist_count": 35
+   },
+   {
+    "genre": "pop rap",
+    "artist_count": 35
+   },
+   {
+    "genre": "folk",
+    "artist_count": 34
+   },
+   {
+    "genre": "edm",
+    "artist_count": 33
+   },
+   {
+    "genre": "downtempo",
+    "artist_count": 30
+   },
+   {
+    "genre": "electro house",
+    "artist_count": 30
+   },
+   {
+    "genre": "salsa",
+    "artist_count": 29
+   },
+   {
+    "genre": "art pop",
+    "artist_count": 28
+   },
+   {
+    "genre": "electronica",
+    "artist_count": 27
+   },
+   {
+    "genre": "filmi",
+    "artist_count": 27
+   },
+   {
+    "genre": "hard rock",
+    "artist_count": 27
+   },
+   {
+    "genre": "grime",
+    "artist_count": 26
+   },
+   {
+    "genre": "trip hop",
+    "artist_count": 26
+   },
+   {
+    "genre": "alternative r&b",
+    "artist_count": 25
+   },
+   {
+    "genre": "folk rock",
+    "artist_count": 25
+   },
+   {
+    "genre": "norteño",
+    "artist_count": 25
+   },
+   {
+    "genre": "alternative metal",
+    "artist_count": 24
+   },
+   {
+    "genre": "funk",
+    "artist_count": 23
+   },
+   {
+    "genre": "reggaeton",
+    "artist_count": 23
+   },
+   {
+    "genre": "sierreño",
+    "artist_count": 23
+   },
+   {
+    "genre": "techno",
+    "artist_count": 23
+   },
+   {
+    "genre": "idm",
+    "artist_count": 22
+   },
+   {
+    "genre": "indie folk",
+    "artist_count": 22
+   },
+   {
+    "genre": "alternative pop",
+    "artist_count": 21
+   },
+   {
+    "genre": "blues rock",
+    "artist_count": 21
+   },
+   {
+    "genre": "drum and bass",
+    "artist_count": 21
+   },
+   {
+    "genre": "experimental",
+    "artist_count": 21
+   },
+   {
+    "genre": "latin pop",
+    "artist_count": 21
+   },
+   {
+    "genre": "banda sinaloense",
+    "artist_count": 20
+   },
+   {
+    "genre": "bedroom pop",
+    "artist_count": 20
+   },
+   {
+    "genre": "dream pop",
+    "artist_count": 20
+   },
+   {
+    "genre": "progressive house",
+    "artist_count": 20
+   },
+   {
+    "genre": "blues",
+    "artist_count": 19
+   },
+   {
+    "genre": "country rock",
+    "artist_count": 19
+   },
+   {
+    "genre": "afrobeats",
+    "artist_count": 18
+   },
+   {
+    "genre": "metal",
+    "artist_count": 18
+   },
+   {
+    "genre": "southern hip hop",
+    "artist_count": 18
+   },
+   {
+    "genre": "amapiano",
+    "artist_count": 17
+   },
+   {
+    "genre": "classic rock",
+    "artist_count": 17
+   },
+   {
+    "genre": "classical",
+    "artist_count": 17
+   },
+   {
+    "genre": "j-pop",
+    "artist_count": 17
+   },
+   {
+    "genre": "new wave",
+    "artist_count": 17
+   },
+   {
+    "genre": "pop soul",
+    "artist_count": 17
+   },
+   {
+    "genre": "alternative country",
+    "artist_count": 16
+   },
+   {
+    "genre": "cloud rap",
+    "artist_count": 16
+   },
+   {
+    "genre": "corrido",
+    "artist_count": 16
+   },
+   {
+    "genre": "mandopop",
+    "artist_count": 16
+   },
+   {
+    "genre": "post-punk",
+    "artist_count": 16
+   },
+   {
+    "genre": "americana",
+    "artist_count": 15
+   },
+   {
+    "genre": "ballad",
+    "artist_count": 15
+   },
+   {
+    "genre": "bhangra",
+    "artist_count": 15
+   },
+   {
+    "genre": "gospel",
+    "artist_count": 15
+   },
+   {
+    "genre": "modern classical",
+    "artist_count": 15
+   },
+   {
+    "genre": "east coast hip hop",
+    "artist_count": 14
+   },
+   {
+    "genre": "folk pop",
+    "artist_count": 14
+   },
+   {
+    "genre": "heavy metal",
+    "artist_count": 14
+   },
+   {
+    "genre": "indietronica",
+    "artist_count": 14
+   },
+   {
+    "genre": "neo-psychedelia",
+    "artist_count": 14
+   },
+   {
+    "genre": "psychedelic rock",
+    "artist_count": 14
+   },
+   {
+    "genre": "drill",
+    "artist_count": 13
+   },
+   {
+    "genre": "gangsta rap",
+    "artist_count": 13
+   },
+   {
+    "genre": "opm",
+    "artist_count": 13
+   },
+   {
+    "genre": "pop punk",
+    "artist_count": 13
+   },
+   {
+    "genre": "uk garage",
+    "artist_count": 13
+   },
+   {
+    "genre": "art rock",
+    "artist_count": 12
+   },
+   {
+    "genre": "cumbia",
+    "artist_count": 12
+   },
+   {
+    "genre": "hardcore hip hop",
+    "artist_count": 12
+   },
+   {
+    "genre": "j-rock",
+    "artist_count": 12
+   },
+   {
+    "genre": "teen pop",
+    "artist_count": 12
+   },
+   {
+    "genre": "darksynth",
+    "artist_count": 11
+   },
+   {
+    "genre": "drift phonk",
+    "artist_count": 11
+   },
+   {
+    "genre": "experimental hip hop",
+    "artist_count": 11
+   },
+   {
+    "genre": "nu metal",
+    "artist_count": 11
+   },
+   {
+    "genre": "v-pop",
+    "artist_count": 11
+   },
+   {
+    "genre": "afrobeat",
+    "artist_count": 10
+   },
+   {
+    "genre": "alternative dance",
+    "artist_count": 10
+   },
+   {
+    "genre": "cantopop",
+    "artist_count": 10
+   },
+   {
+    "genre": "country pop",
+    "artist_count": 10
+   },
+   {
+    "genre": "gabber",
+    "artist_count": 10
+   },
+   {
+    "genre": "lo-fi",
+    "artist_count": 10
+   },
+   {
+    "genre": "lo-fi hip hop",
+    "artist_count": 10
+   },
+   {
+    "genre": "neo soul",
+    "artist_count": 10
+   },
+   {
+    "genre": "progressive rock",
+    "artist_count": 10
+   },
+   {
+    "genre": "punk rock",
+    "artist_count": 10
+   },
+   {
+    "genre": "rock and roll",
+    "artist_count": 10
+   },
+   {
+    "genre": "disco",
+    "artist_count": 9
+   },
+   {
+    "genre": "hyperpop",
+    "artist_count": 9
+   },
+   {
+    "genre": "instrumental",
+    "artist_count": 9
+   },
+   {
+    "genre": "orchestral",
+    "artist_count": 9
+   },
+   {
+    "genre": "phonk",
+    "artist_count": 9
+   },
+   {
+    "genre": "shoegaze",
+    "artist_count": 9
+   },
+   {
+    "genre": "vocal jazz",
+    "artist_count": 9
+   },
+   {
+    "genre": "bachata",
+    "artist_count": 8
+   },
+   {
+    "genre": "baroque pop",
+    "artist_count": 8
+   },
+   {
+    "genre": "dancehall",
+    "artist_count": 8
+   },
+   {
+    "genre": "electro",
+    "artist_count": 8
+   },
+   {
+    "genre": "experimental rock",
+    "artist_count": 8
+   },
+   {
+    "genre": "garage rock",
+    "artist_count": 8
+   },
+   {
+    "genre": "gqom",
+    "artist_count": 8
+   },
+   {
+    "genre": "post-grunge",
+    "artist_count": 8
+   },
+   {
+    "genre": "post-punk revival",
+    "artist_count": 8
+   },
+   {
+    "genre": "power pop",
+    "artist_count": 8
+   },
+   {
+    "genre": "reggae",
+    "artist_count": 8
+   },
+   {
+    "genre": "trance",
+    "artist_count": 8
+   },
+   {
+    "genre": "world",
+    "artist_count": 8
+   },
+   {
+    "genre": "alternative hip hop",
+    "artist_count": 7
+   },
+   {
+    "genre": "bolero",
+    "artist_count": 7
+   },
+   {
+    "genre": "boom bap",
+    "artist_count": 7
+   },
+   {
+    "genre": "bossa nova",
+    "artist_count": 7
+   },
+   {
+    "genre": "breakcore",
+    "artist_count": 7
+   },
+   {
+    "genre": "chamber pop",
+    "artist_count": 7
+   },
+   {
+    "genre": "cinematic classical",
+    "artist_count": 7
+   },
+   {
+    "genre": "contemporary folk",
+    "artist_count": 7
+   },
+   {
+    "genre": "corrido tumbado",
+    "artist_count": 7
+   },
+   {
+    "genre": "emo rap",
+    "artist_count": 7
+   },
+   {
+    "genre": "funk rock",
+    "artist_count": 7
+   },
+   {
+    "genre": "future bass",
+    "artist_count": 7
+   },
+   {
+    "genre": "grunge",
+    "artist_count": 7
+   },
+   {
+    "genre": "indian pop",
+    "artist_count": 7
+   },
+   {
+    "genre": "industrial",
+    "artist_count": 7
+   },
+   {
+    "genre": "melodic dubstep",
+    "artist_count": 7
+   },
+   {
+    "genre": "merengue",
+    "artist_count": 7
+   },
+   {
+    "genre": "mpb",
+    "artist_count": 7
+   },
+   {
+    "genre": "rage",
+    "artist_count": 7
+   },
+   {
+    "genre": "rap rock",
+    "artist_count": 7
+   },
+   {
+    "genre": "roots rock",
+    "artist_count": 7
+   },
+   {
+    "genre": "soft rock",
+    "artist_count": 7
+   },
+   {
+    "genre": "trap latino",
+    "artist_count": 7
+   },
+   {
+    "genre": "uk drill",
+    "artist_count": 7
+   },
+   {
+    "genre": "avant-garde",
+    "artist_count": 6
+   },
+   {
+    "genre": "breakbeat",
+    "artist_count": 6
+   },
+   {
+    "genre": "chicago drill",
+    "artist_count": 6
+   },
+   {
+    "genre": "chillwave",
+    "artist_count": 6
+   },
+   {
+    "genre": "conscious hip hop",
+    "artist_count": 6
+   },
+   {
+    "genre": "deep house",
+    "artist_count": 6
+   },
+   {
+    "genre": "folktronica",
+    "artist_count": 6
+   },
+   {
+    "genre": "french house",
+    "artist_count": 6
+   },
+   {
+    "genre": "gothic rock",
+    "artist_count": 6
+   },
+   {
+    "genre": "hardcore techno",
+    "artist_count": 6
+   },
+   {
+    "genre": "jazz fusion",
+    "artist_count": 6
+   },
+   {
+    "genre": "jazz pop",
+    "artist_count": 6
+   },
+   {
+    "genre": "punk",
+    "artist_count": 6
+   },
+   {
+    "genre": "t-pop",
+    "artist_count": 6
+   },
+   {
+    "genre": "tech house",
+    "artist_count": 6
+   },
+   {
+    "genre": "west coast hip hop",
+    "artist_count": 6
+   },
+   {
+    "genre": "afroswing",
+    "artist_count": 5
+   },
+   {
+    "genre": "ambient pop",
+    "artist_count": 5
+   },
+   {
+    "genre": "ambient techno",
+    "artist_count": 5
+   },
+   {
+    "genre": "avant-garde jazz",
+    "artist_count": 5
+   },
+   {
+    "genre": "contemporary country",
+    "artist_count": 5
+   },
+   {
+    "genre": "contemporary gospel",
+    "artist_count": 5
+   },
+   {
+    "genre": "hard bop",
+    "artist_count": 5
+   },
+   {
+    "genre": "latin rock",
+    "artist_count": 5
+   },
+   {
+    "genre": "mariachi",
+    "artist_count": 5
+   },
+   {
+    "genre": "melodic techno",
+    "artist_count": 5
+   },
+   {
+    "genre": "post-bop",
+    "artist_count": 5
+   },
+   {
+    "genre": "praise & worship",
+    "artist_count": 5
+   },
+   {
+    "genre": "psychedelic pop",
+    "artist_count": 5
+   },
+   {
+    "genre": "southern rock",
+    "artist_count": 5
+   },
+   {
+    "genre": "swing",
+    "artist_count": 5
+   },
+   {
+    "genre": "acoustic rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "anatolian rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "big beat",
+    "artist_count": 4
+   },
+   {
+    "genre": "chillout",
+    "artist_count": 4
+   },
+   {
+    "genre": "christian rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "contemporary classical",
+    "artist_count": 4
+   },
+   {
+    "genre": "cumbia mexicana",
+    "artist_count": 4
+   },
+   {
+    "genre": "digicore",
+    "artist_count": 4
+   },
+   {
+    "genre": "drill and bass",
+    "artist_count": 4
+   },
+   {
+    "genre": "drone",
+    "artist_count": 4
+   },
+   {
+    "genre": "emo",
+    "artist_count": 4
+   },
+   {
+    "genre": "eurodance",
+    "artist_count": 4
+   },
+   {
+    "genre": "glam metal",
+    "artist_count": 4
+   },
+   {
+    "genre": "glam rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "glitch",
+    "artist_count": 4
+   },
+   {
+    "genre": "heartland rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "instrumental hip hop",
+    "artist_count": 4
+   },
+   {
+    "genre": "jangle pop",
+    "artist_count": 4
+   },
+   {
+    "genre": "latin jazz",
+    "artist_count": 4
+   },
+   {
+    "genre": "metalcore",
+    "artist_count": 4
+   },
+   {
+    "genre": "noise rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "nu disco",
+    "artist_count": 4
+   },
+   {
+    "genre": "nu jazz",
+    "artist_count": 4
+   },
+   {
+    "genre": "outlaw country",
+    "artist_count": 4
+   },
+   {
+    "genre": "post-rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "rap metal",
+    "artist_count": 4
+   },
+   {
+    "genre": "rave",
+    "artist_count": 4
+   },
+   {
+    "genre": "rockabilly",
+    "artist_count": 4
+   },
+   {
+    "genre": "sertanejo",
+    "artist_count": 4
+   },
+   {
+    "genre": "sludge metal",
+    "artist_count": 4
+   },
+   {
+    "genre": "smooth soul",
+    "artist_count": 4
+   },
+   {
+    "genre": "symphonic rock",
+    "artist_count": 4
+   },
+   {
+    "genre": "thrash metal",
+    "artist_count": 4
+   },
+   {
+    "genre": "trap edm",
+    "artist_count": 4
+   },
+   {
+    "genre": "acid techno",
+    "artist_count": 3
+   },
+   {
+    "genre": "ambient house",
+    "artist_count": 3
+   },
+   {
+    "genre": "aor",
+    "artist_count": 3
+   },
+   {
+    "genre": "arena rock",
+    "artist_count": 3
+   },
+   {
+    "genre": "avant-garde pop",
+    "artist_count": 3
+   },
+   {
+    "genre": "bebop",
+    "artist_count": 3
+   },
+   {
+    "genre": "big band",
+    "artist_count": 3
+   },
+   {
+    "genre": "blue-eyed soul",
+    "artist_count": 3
+   },
+   {
+    "genre": "britpop",
+    "artist_count": 3
+   },
+   {
+    "genre": "club",
+    "artist_count": 3
+   },
+   {
+    "genre": "complextro",
+    "artist_count": 3
+   },
+   {
+    "genre": "cool jazz",
+    "artist_count": 3
+   },
+   {
+    "genre": "country soul",
+    "artist_count": 3
+   },
+   {
+    "genre": "dabke",
+    "artist_count": 3
+   },
+   {
+    "genre": "dark ambient",
+    "artist_count": 3
+   },
+   {
+    "genre": "dark wave",
+    "artist_count": 3
+   },
+   {
+    "genre": "digital hardcore",
+    "artist_count": 3
+   },
+   {
+    "genre": "doom metal",
+    "artist_count": 3
+   },
+   {
+    "genre": "easy listening",
+    "artist_count": 3
+   },
+   {
+    "genre": "europop",
+    "artist_count": 3
+   },
+   {
+    "genre": "funk metal",
+    "artist_count": 3
+   },
+   {
+    "genre": "future garage",
+    "artist_count": 3
+   },
+   {
+    "genre": "g-funk",
+    "artist_count": 3
+   },
+   {
+    "genre": "garage rock revival",
+    "artist_count": 3
+   },
+   {
+    "genre": "guaracha",
+    "artist_count": 3
+   },
+   {
+    "genre": "honky tonk",
+    "artist_count": 3
+   },
+   {
+    "genre": "industrial metal",
+    "artist_count": 3
+   },
+   {
+    "genre": "jazz rap",
+    "artist_count": 3
+   },
+   {
+    "genre": "jungle",
+    "artist_count": 3
+   },
+   {
+    "genre": "modal jazz",
+    "artist_count": 3
+   },
+   {
+    "genre": "new age",
+    "artist_count": 3
+   },
+   {
+    "genre": "noise",
+    "artist_count": 3
+   },
+   {
+    "genre": "piano rock",
+    "artist_count": 3
+   },
+   {
+    "genre": "post-dubstep",
+    "artist_count": 3
+   },
+   {
+    "genre": "post-hardcore",
+    "artist_count": 3
+   },
+   {
+    "genre": "progressive trance",
+    "artist_count": 3
+   },
+   {
+    "genre": "raï",
+    "artist_count": 3
+   },
+   {
+    "genre": "red dirt",
+    "artist_count": 3
+   },
+   {
+    "genre": "ska",
+    "artist_count": 3
+   },
+   {
+    "genre": "turkish pop",
+    "artist_count": 3
+   },
+   {
+    "genre": "vaporwave",
+    "artist_count": 3
+   },
+   {
+    "genre": "vocal trance",
+    "artist_count": 3
+   },
+   {
+    "genre": "acid jazz",
+    "artist_count": 2
+   },
+   {
+    "genre": "afro house",
+    "artist_count": 2
+   },
+   {
+    "genre": "afropop",
+    "artist_count": 2
+   },
+   {
+    "genre": "alternative",
+    "artist_count": 2
+   },
+   {
+    "genre": "alternative folk",
+    "artist_count": 2
+   },
+   {
+    "genre": "anti-folk",
+    "artist_count": 2
+   },
+   {
+    "genre": "art punk",
+    "artist_count": 2
+   },
+   {
+    "genre": "atmospheric drum and bass",
+    "artist_count": 2
+   },
+   {
+    "genre": "avant-folk",
+    "artist_count": 2
+   },
+   {
+    "genre": "balearic beat",
+    "artist_count": 2
+   },
+   {
+    "genre": "big room house",
+    "artist_count": 2
+   },
+   {
+    "genre": "bluegrass",
+    "artist_count": 2
+   },
+   {
+    "genre": "breaks",
+    "artist_count": 2
+   },
+   {
+    "genre": "british rhythm & blues",
+    "artist_count": 2
+   },
+   {
+    "genre": "chachachá",
+    "artist_count": 2
+   },
+   {
+    "genre": "chiptune",
+    "artist_count": 2
+   },
+   {
+    "genre": "christmas music",
+    "artist_count": 2
+   },
+   {
+    "genre": "cumbia peruana",
+    "artist_count": 2
+   },
+   {
+    "genre": "dance-punk",
+    "artist_count": 2
+   },
+   {
+    "genre": "deconstructed club",
+    "artist_count": 2
+   },
+   {
+    "genre": "dirty south",
+    "artist_count": 2
+   },
+   {
+    "genre": "dub",
+    "artist_count": 2
+   },
+   {
+    "genre": "electric blues",
+    "artist_count": 2
+   },
+   {
+    "genre": "electro swing",
+    "artist_count": 2
+   },
+   {
+    "genre": "electro-industrial",
+    "artist_count": 2
+   },
+   {
+    "genre": "electroacoustic",
+    "artist_count": 2
+   },
+   {
+    "genre": "electroclash",
+    "artist_count": 2
+   },
+   {
+    "genre": "emo pop",
+    "artist_count": 2
+   },
+   {
+    "genre": "ethereal wave",
+    "artist_count": 2
+   },
+   {
+    "genre": "film score",
+    "artist_count": 2
+   },
+   {
+    "genre": "free jazz",
+    "artist_count": 2
+   },
+   {
+    "genre": "french electro",
+    "artist_count": 2
+   },
+   {
+    "genre": "funktronica",
+    "artist_count": 2
+   },
+   {
+    "genre": "ghazal",
+    "artist_count": 2
+   },
+   {
+    "genre": "glitch pop",
+    "artist_count": 2
+   },
+   {
+    "genre": "guaguancó",
+    "artist_count": 2
+   },
+   {
+    "genre": "happy hardcore",
+    "artist_count": 2
+   },
+   {
+    "genre": "hardcore punk",
+    "artist_count": 2
+   },
+   {
+    "genre": "hardstyle",
+    "artist_count": 2
+   },
+   {
+    "genre": "horrorcore",
+    "artist_count": 2
+   },
+   {
+    "genre": "industrial hip hop",
+    "artist_count": 2
+   },
+   {
+    "genre": "industrial rock",
+    "artist_count": 2
+   },
+   {
+    "genre": "jam band",
+    "artist_count": 2
+   },
+   {
+    "genre": "krautrock",
+    "artist_count": 2
+   },
+   {
+    "genre": "mahraganat",
+    "artist_count": 2
+   },
+   {
+    "genre": "mambo",
+    "artist_count": 2
+   },
+   {
+    "genre": "melodic house",
+    "artist_count": 2
+   },
+   {
+    "genre": "melodic metalcore",
+    "artist_count": 2
+   },
+   {
+    "genre": "minimalism",
+    "artist_count": 2
+   },
+   {
+    "genre": "moombahton",
+    "artist_count": 2
+   },
+   {
+    "genre": "motown",
+    "artist_count": 2
+   },
+   {
+    "genre": "musical",
+    "artist_count": 2
+   },
+   {
+    "genre": "neo-traditional country",
+    "artist_count": 2
+   },
+   {
+    "genre": "new jack swing",
+    "artist_count": 2
+   },
+   {
+    "genre": "pachanga",
+    "artist_count": 2
+   },
+   {
+    "genre": "political hip hop",
+    "artist_count": 2
+   },
+   {
+    "genre": "progressive metal",
+    "artist_count": 2
+   },
+   {
+    "genre": "progressive pop",
+    "artist_count": 2
+   },
+   {
+    "genre": "psychedelic folk",
+    "artist_count": 2
+   },
+   {
+    "genre": "psychedelic soul",
+    "artist_count": 2
+   },
+   {
+    "genre": "psytrance",
+    "artist_count": 2
+   },
+   {
+    "genre": "qawwali",
+    "artist_count": 2
+   },
+   {
+    "genre": "ranchera",
+    "artist_count": 2
+   },
+   {
+    "genre": "rock opera",
+    "artist_count": 2
+   },
+   {
+    "genre": "roots reggae",
+    "artist_count": 2
+   },
+   {
+    "genre": "sertanejo universitário",
+    "artist_count": 2
+   },
+   {
+    "genre": "shaabi",
+    "artist_count": 2
+   },
+   {
+    "genre": "skate punk",
+    "artist_count": 2
+   },
+   {
+    "genre": "slowcore",
+    "artist_count": 2
+   },
+   {
+    "genre": "speed garage",
+    "artist_count": 2
+   },
+   {
+    "genre": "speedcore",
+    "artist_count": 2
+   },
+   {
+    "genre": "spiritual jazz",
+    "artist_count": 2
+   },
+   {
+    "genre": "surf rock",
+    "artist_count": 2
+   },
+   {
+    "genre": "symphonic metal",
+    "artist_count": 2
+   },
+   {
+    "genre": "tejano",
+    "artist_count": 2
+   },
+   {
+    "genre": "turntablism",
+    "artist_count": 2
+   },
+   {
+    "genre": "twee pop",
+    "artist_count": 2
+   },
+   {
+    "genre": "underground hip hop",
+    "artist_count": 2
+   },
+   {
+    "genre": "wonky",
+    "artist_count": 2
+   },
+   {
+    "genre": "world fusion",
+    "artist_count": 2
+   },
+   {
+    "genre": "2-step",
+    "artist_count": 1
+   },
+   {
+    "genre": "abstract hip hop",
+    "artist_count": 1
+   },
+   {
+    "genre": "acid breaks",
+    "artist_count": 1
+   },
+   {
+    "genre": "acid rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "afro trap",
+    "artist_count": 1
+   },
+   {
+    "genre": "afro-cuban jazz",
+    "artist_count": 1
+   },
+   {
+    "genre": "aggrotech",
+    "artist_count": 1
+   },
+   {
+    "genre": "alté",
+    "artist_count": 1
+   },
+   {
+    "genre": "ambient americana",
+    "artist_count": 1
+   },
+   {
+    "genre": "arabic",
+    "artist_count": 1
+   },
+   {
+    "genre": "arabic classical",
+    "artist_count": 1
+   },
+   {
+    "genre": "audio drama",
+    "artist_count": 1
+   },
+   {
+    "genre": "bass house",
+    "artist_count": 1
+   },
+   {
+    "genre": "bhajan",
+    "artist_count": 1
+   },
+   {
+    "genre": "bitpop",
+    "artist_count": 1
+   },
+   {
+    "genre": "boogaloo",
+    "artist_count": 1
+   },
+   {
+    "genre": "brazilian phonk",
+    "artist_count": 1
+   },
+   {
+    "genre": "breakbeat hardcore",
+    "artist_count": 1
+   },
+   {
+    "genre": "briddim",
+    "artist_count": 1
+   },
+   {
+    "genre": "british blues",
+    "artist_count": 1
+   },
+   {
+    "genre": "brostep",
+    "artist_count": 1
+   },
+   {
+    "genre": "bubblegum bass",
+    "artist_count": 1
+   },
+   {
+    "genre": "bubblegum pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "bullerengue",
+    "artist_count": 1
+   },
+   {
+    "genre": "c-pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "celtic",
+    "artist_count": 1
+   },
+   {
+    "genre": "celtic punk",
+    "artist_count": 1
+   },
+   {
+    "genre": "charanga",
+    "artist_count": 1
+   },
+   {
+    "genre": "chicago blues",
+    "artist_count": 1
+   },
+   {
+    "genre": "chicago soul",
+    "artist_count": 1
+   },
+   {
+    "genre": "christian hip hop",
+    "artist_count": 1
+   },
+   {
+    "genre": "classical crossover",
+    "artist_count": 1
+   },
+   {
+    "genre": "coldwave",
+    "artist_count": 1
+   },
+   {
+    "genre": "colour bass",
+    "artist_count": 1
+   },
+   {
+    "genre": "comedy",
+    "artist_count": 1
+   },
+   {
+    "genre": "comedy rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "country folk",
+    "artist_count": 1
+   },
+   {
+    "genre": "country gospel",
+    "artist_count": 1
+   },
+   {
+    "genre": "country rap",
+    "artist_count": 1
+   },
+   {
+    "genre": "cumbia argentina",
+    "artist_count": 1
+   },
+   {
+    "genre": "cumbia colombiana",
+    "artist_count": 1
+   },
+   {
+    "genre": "cyberpunk",
+    "artist_count": 1
+   },
+   {
+    "genre": "dancefloor drum and bass",
+    "artist_count": 1
+   },
+   {
+    "genre": "dark electro",
+    "artist_count": 1
+   },
+   {
+    "genre": "dark folk",
+    "artist_count": 1
+   },
+   {
+    "genre": "dark plugg",
+    "artist_count": 1
+   },
+   {
+    "genre": "deathcore",
+    "artist_count": 1
+   },
+   {
+    "genre": "deep soul",
+    "artist_count": 1
+   },
+   {
+    "genre": "deep tech",
+    "artist_count": 1
+   },
+   {
+    "genre": "delta blues",
+    "artist_count": 1
+   },
+   {
+    "genre": "desert rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "dixieland",
+    "artist_count": 1
+   },
+   {
+    "genre": "djent",
+    "artist_count": 1
+   },
+   {
+    "genre": "drone metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "dutch house",
+    "artist_count": 1
+   },
+   {
+    "genre": "easycore",
+    "artist_count": 1
+   },
+   {
+    "genre": "ebm",
+    "artist_count": 1
+   },
+   {
+    "genre": "electro hop",
+    "artist_count": 1
+   },
+   {
+    "genre": "electronic rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "electropunk",
+    "artist_count": 1
+   },
+   {
+    "genre": "ethio-jazz",
+    "artist_count": 1
+   },
+   {
+    "genre": "euro house",
+    "artist_count": 1
+   },
+   {
+    "genre": "experimental electronic",
+    "artist_count": 1
+   },
+   {
+    "genre": "flamenco",
+    "artist_count": 1
+   },
+   {
+    "genre": "flamenco pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "folk punk",
+    "artist_count": 1
+   },
+   {
+    "genre": "folkhop",
+    "artist_count": 1
+   },
+   {
+    "genre": "footwork",
+    "artist_count": 1
+   },
+   {
+    "genre": "freakbeat",
+    "artist_count": 1
+   },
+   {
+    "genre": "futurepop",
+    "artist_count": 1
+   },
+   {
+    "genre": "garage house",
+    "artist_count": 1
+   },
+   {
+    "genre": "geek rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "glam",
+    "artist_count": 1
+   },
+   {
+    "genre": "glitch hop",
+    "artist_count": 1
+   },
+   {
+    "genre": "goa trance",
+    "artist_count": 1
+   },
+   {
+    "genre": "gothic",
+    "artist_count": 1
+   },
+   {
+    "genre": "gothic country",
+    "artist_count": 1
+   },
+   {
+    "genre": "gothic metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "groove metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "hard drum",
+    "artist_count": 1
+   },
+   {
+    "genre": "hard techno",
+    "artist_count": 1
+   },
+   {
+    "genre": "hardcore breaks",
+    "artist_count": 1
+   },
+   {
+    "genre": "hardgroove techno",
+    "artist_count": 1
+   },
+   {
+    "genre": "hardvapour",
+    "artist_count": 1
+   },
+   {
+    "genre": "hardwave",
+    "artist_count": 1
+   },
+   {
+    "genre": "hauntology",
+    "artist_count": 1
+   },
+   {
+    "genre": "heavy psych",
+    "artist_count": 1
+   },
+   {
+    "genre": "highlife",
+    "artist_count": 1
+   },
+   {
+    "genre": "hindustani classical",
+    "artist_count": 1
+   },
+   {
+    "genre": "hiplife",
+    "artist_count": 1
+   },
+   {
+    "genre": "hybrid trap",
+    "artist_count": 1
+   },
+   {
+    "genre": "indian classical",
+    "artist_count": 1
+   },
+   {
+    "genre": "indie",
+    "artist_count": 1
+   },
+   {
+    "genre": "industrial techno",
+    "artist_count": 1
+   },
+   {
+    "genre": "instrumental rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "isicathamiya",
+    "artist_count": 1
+   },
+   {
+    "genre": "jazz rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "jazz-funk",
+    "artist_count": 1
+   },
+   {
+    "genre": "jerk",
+    "artist_count": 1
+   },
+   {
+    "genre": "jersey club",
+    "artist_count": 1
+   },
+   {
+    "genre": "jersey club rap",
+    "artist_count": 1
+   },
+   {
+    "genre": "juke",
+    "artist_count": 1
+   },
+   {
+    "genre": "kawaii metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "korean ballad",
+    "artist_count": 1
+   },
+   {
+    "genre": "latin ballad",
+    "artist_count": 1
+   },
+   {
+    "genre": "latin house",
+    "artist_count": 1
+   },
+   {
+    "genre": "latin soul",
+    "artist_count": 1
+   },
+   {
+    "genre": "leftfield",
+    "artist_count": 1
+   },
+   {
+    "genre": "liquid funk",
+    "artist_count": 1
+   },
+   {
+    "genre": "lolicore",
+    "artist_count": 1
+   },
+   {
+    "genre": "lounge",
+    "artist_count": 1
+   },
+   {
+    "genre": "manila sound",
+    "artist_count": 1
+   },
+   {
+    "genre": "marabi",
+    "artist_count": 1
+   },
+   {
+    "genre": "maskanda",
+    "artist_count": 1
+   },
+   {
+    "genre": "math rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "mbalax",
+    "artist_count": 1
+   },
+   {
+    "genre": "mbube",
+    "artist_count": 1
+   },
+   {
+    "genre": "melodic hardcore",
+    "artist_count": 1
+   },
+   {
+    "genre": "merseybeat",
+    "artist_count": 1
+   },
+   {
+    "genre": "mod",
+    "artist_count": 1
+   },
+   {
+    "genre": "morna",
+    "artist_count": 1
+   },
+   {
+    "genre": "mūsīqā lubnāniyya",
+    "artist_count": 1
+   },
+   {
+    "genre": "narcocorrido",
+    "artist_count": 1
+   },
+   {
+    "genre": "nashville sound",
+    "artist_count": 1
+   },
+   {
+    "genre": "neo-classical",
+    "artist_count": 1
+   },
+   {
+    "genre": "neoclassical dark wave",
+    "artist_count": 1
+   },
+   {
+    "genre": "neoperreo",
+    "artist_count": 1
+   },
+   {
+    "genre": "neue deutsche härte",
+    "artist_count": 1
+   },
+   {
+    "genre": "neurofunk",
+    "artist_count": 1
+   },
+   {
+    "genre": "no wave",
+    "artist_count": 1
+   },
+   {
+    "genre": "noise pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "nu skool breaks",
+    "artist_count": 1
+   },
+   {
+    "genre": "nueva cumbia chilena",
+    "artist_count": 1
+   },
+   {
+    "genre": "nuevo tango",
+    "artist_count": 1
+   },
+   {
+    "genre": "nwobhm",
+    "artist_count": 1
+   },
+   {
+    "genre": "occult rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "organic house",
+    "artist_count": 1
+   },
+   {
+    "genre": "pagan folk",
+    "artist_count": 1
+   },
+   {
+    "genre": "phonk house",
+    "artist_count": 1
+   },
+   {
+    "genre": "plugg",
+    "artist_count": 1
+   },
+   {
+    "genre": "plunderphonics",
+    "artist_count": 1
+   },
+   {
+    "genre": "poetry",
+    "artist_count": 1
+   },
+   {
+    "genre": "political",
+    "artist_count": 1
+   },
+   {
+    "genre": "porro",
+    "artist_count": 1
+   },
+   {
+    "genre": "post-britpop",
+    "artist_count": 1
+   },
+   {
+    "genre": "power metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "production music",
+    "artist_count": 1
+   },
+   {
+    "genre": "progressive",
+    "artist_count": 1
+   },
+   {
+    "genre": "progressive electronic",
+    "artist_count": 1
+   },
+   {
+    "genre": "proto-punk",
+    "artist_count": 1
+   },
+   {
+    "genre": "psychedelic",
+    "artist_count": 1
+   },
+   {
+    "genre": "punk rap",
+    "artist_count": 1
+   },
+   {
+    "genre": "ragga",
+    "artist_count": 1
+   },
+   {
+    "genre": "raggacore",
+    "artist_count": 1
+   },
+   {
+    "genre": "rapcore",
+    "artist_count": 1
+   },
+   {
+    "genre": "reggae rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "rumba",
+    "artist_count": 1
+   },
+   {
+    "genre": "rumba cubana",
+    "artist_count": 1
+   },
+   {
+    "genre": "sertanejo romântico",
+    "artist_count": 1
+   },
+   {
+    "genre": "sigilkore",
+    "artist_count": 1
+   },
+   {
+    "genre": "smooth jazz",
+    "artist_count": 1
+   },
+   {
+    "genre": "son cubano",
+    "artist_count": 1
+   },
+   {
+    "genre": "sophisti-pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "southern soul",
+    "artist_count": 1
+   },
+   {
+    "genre": "space rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "spacesynth",
+    "artist_count": 1
+   },
+   {
+    "genre": "speed metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "spiritual",
+    "artist_count": 1
+   },
+   {
+    "genre": "spoken word",
+    "artist_count": 1
+   },
+   {
+    "genre": "stomp and holler",
+    "artist_count": 1
+   },
+   {
+    "genre": "stoner rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "sunshine pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "surf",
+    "artist_count": 1
+   },
+   {
+    "genre": "swamp rock",
+    "artist_count": 1
+   },
+   {
+    "genre": "synth funk",
+    "artist_count": 1
+   },
+   {
+    "genre": "tango",
+    "artist_count": 1
+   },
+   {
+    "genre": "tearout brostep",
+    "artist_count": 1
+   },
+   {
+    "genre": "traditional country",
+    "artist_count": 1
+   },
+   {
+    "genre": "traditional doom metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "traditional pop",
+    "artist_count": 1
+   },
+   {
+    "genre": "trap metal",
+    "artist_count": 1
+   },
+   {
+    "genre": "tropical house",
+    "artist_count": 1
+   },
+   {
+    "genre": "tropicália",
+    "artist_count": 1
+   },
+   {
+    "genre": "uk funky",
+    "artist_count": 1
+   },
+   {
+    "genre": "vietnamese bolero",
+    "artist_count": 1
+   },
+   {
+    "genre": "visual kei",
+    "artist_count": 1
+   },
+   {
+    "genre": "vocal house",
+    "artist_count": 1
+   },
+   {
+    "genre": "wave",
+    "artist_count": 1
+   },
+   {
+    "genre": "witch house",
+    "artist_count": 1
+   },
+   {
+    "genre": "wyrd folk",
+    "artist_count": 1
+   }
+  ]
+ },
+ {
+  "function": "artists_by_genre",
+  "args": [
+   "pop",
+   25
+  ],
+  "expected": [
+   {
+    "mbid": "cc2c9c3c-b7bc-4b8b-84d8-4fbd8779e493",
+    "name": "Adele",
+    "weight": 1.0
+   },
+   {
+    "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+    "name": "Lady Gaga",
+    "weight": 1.0
+   },
+   {
+    "mbid": "0ab49580-c84f-44d4-875f-d83760ea2cfe",
+    "name": "Maroon 5",
+    "weight": 1.0
+   },
+   {
+    "mbid": "b83bc61f-8451-4a5d-8b8e-7e9ed295e822",
+    "name": "Elton John",
+    "weight": 1.0
+   },
+   {
+    "mbid": "122d63fc-8671-43e4-9752-34e846d62a9c",
+    "name": "Katy Perry",
+    "weight": 1.0
+   },
+   {
+    "mbid": "45a663b5-b1cb-4a91-bff6-2bef7bbfdd76",
+    "name": "Britney Spears",
+    "weight": 1.0
+   },
+   {
+    "mbid": "596ffa74-3d08-44ef-b113-765d43d12738",
+    "name": "Justin Timberlake",
+    "weight": 1.0
+   },
+   {
+    "mbid": "e0e1a584-dd0a-4bd1-88d1-c4c62895039d",
+    "name": "Foster the People",
+    "weight": 1.0
+   },
+   {
+    "mbid": "2f548675-008d-4332-876c-108b0c7ab9c5",
+    "name": "Sia",
+    "weight": 1.0
+   },
+   {
+    "mbid": "13655113-cd16-4b43-9dca-cadbbf26ee05",
+    "name": "Nelly Furtado",
+    "weight": 1.0
+   },
+   {
+    "mbid": "b202beb7-99bd-47e7-8b72-195c8d72ebdd",
+    "name": "Christina Aguilera",
+    "weight": 1.0
+   },
+   {
+    "mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+    "name": "P!nk",
+    "weight": 1.0
+   },
+   {
+    "mbid": "afb680f2-b6eb-4cd7-a70b-a63b25c763d5",
+    "name": "Bruno Mars",
+    "weight": 1.0
+   },
+   {
+    "mbid": "bf24ca37-25f4-4e34-9aec-460b94364cfc",
+    "name": "Shakira",
+    "weight": 1.0
+   },
+   {
+    "mbid": "c33c2065-b1c3-4406-b066-d33a9e2ea71a",
+    "name": "OneRepublic",
+    "weight": 1.0
+   },
+   {
+    "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8",
+    "name": "ABBA",
+    "weight": 1.0
+   },
+   {
+    "mbid": "d339efbb-77b9-4147-ba9e-59f2f24550b2",
+    "name": "Kelly Clarkson",
+    "weight": 1.0
+   },
+   {
+    "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+    "name": "Taylor Swift",
+    "weight": 1.0
+   },
+   {
+    "mbid": "494e8d09-f85b-4543-892f-a5096aed1cd4",
+    "name": "Mariah Carey",
+    "weight": 1.0
+   },
+   {
+    "mbid": "c234fa42-e6a6-443e-937e-2f4b073538a3",
+    "name": "Chris Brown",
+    "weight": 1.0
+   },
+   {
+    "mbid": "b896aa8c-2761-40ce-b485-0e1fffd26167",
+    "name": "Dusty Springfield",
+    "weight": 1.0
+   },
+   {
+    "mbid": "ed5d9086-e8cd-473a-b96c-d81ad6c98f0d",
+    "name": "LMFAO",
+    "weight": 1.0
+   },
+   {
+    "mbid": "f0602f55-1770-483d-89bd-4bae0d0ac086",
+    "name": "Jennifer Lopez",
+    "weight": 1.0
+   },
+   {
+    "mbid": "80ccfede-c258-4575-a7ad-c982e9932e0f",
+    "name": "Sheryl Crow",
+    "weight": 1.0
+   },
+   {
+    "mbid": "136c4166-85b3-4994-aa04-59857c434199",
+    "name": "Fun",
+    "weight": 1.0
+   }
+  ]
+ },
+ {
+  "function": "artists_by_genre",
+  "args": [
+   "no such genre",
+   10
+  ],
+  "expected": []
+ },
+ {
+  "function": "get_artist",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+  ],
+  "expected": {
+   "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "name": "Radiohead",
+   "in_catalog": true,
+   "sort_name": "Radiohead",
+   "artist_type": "Group",
+   "country": "GB",
+   "begin_year": 1991,
+   "end_year": null,
+   "gender": null,
+   "popularity": 461120.0,
+   "popularity_percentile": 1.0,
+   "has_audio": true,
+   "has_text": true,
+   "has_listeners": true,
+   "has_genre": true,
+   "aliases": [
+    "Radio Head",
+    "Radiohead",
+    "Radiohead & Thom Yorke",
+    "r/head",
+    "レディオヘッド",
+    "电台司令"
+   ],
+   "genres": [
+    {
+     "genre": "art rock",
+     "weight": 0.6976744186046512
+    },
+    {
+     "genre": "alternative rock",
+     "weight": 0.5
+    },
+    {
+     "genre": "electronic",
+     "weight": 0.5
+    },
+    {
+     "genre": "rock",
+     "weight": 0.4418604651162791
+    },
+    {
+     "genre": "experimental rock",
+     "weight": 0.32558139534883723
+    },
+    {
+     "genre": "indie rock",
+     "weight": 0.11627906976744186
+    },
+    {
+     "genre": "art pop",
+     "weight": 0.06976744186046512
+    },
+    {
+     "genre": "experimental",
+     "weight": 0.06976744186046512
+    }
+   ]
+  }
+ },
+ {
+  "function": "get_artist",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50"
+  ],
+  "expected": {
+   "mbid": "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "name": "GLAY",
+   "in_catalog": true,
+   "sort_name": "GLAY",
+   "artist_type": "Group",
+   "country": "JP",
+   "begin_year": 1988,
+   "end_year": null,
+   "gender": null,
+   "popularity": 9737.0,
+   "popularity_percentile": 0.472032,
+   "has_audio": false,
+   "has_text": true,
+   "has_listeners": true,
+   "has_genre": true,
+   "aliases": [
+    "グレイ"
+   ],
+   "genres": [
+    {
+     "genre": "j-rock",
+     "weight": 1.0
+    },
+    {
+     "genre": "pop rock",
+     "weight": 1.0
+    },
+    {
+     "genre": "rock",
+     "weight": 1.0
+    },
+    {
+     "genre": "visual kei",
+     "weight": 1.0
+    }
+   ]
+  }
+ },
+ {
+  "function": "get_artist",
+  "args": [
+   "0004d643-96e3-486a-bafe-eb792871ce9f"
+  ],
+  "expected": {
+   "mbid": "0004d643-96e3-486a-bafe-eb792871ce9f",
+   "name": "Siddhartha",
+   "in_catalog": false,
+   "sort_name": null,
+   "artist_type": null,
+   "country": null,
+   "begin_year": null,
+   "end_year": null,
+   "gender": null,
+   "popularity": null,
+   "popularity_percentile": null,
+   "has_audio": false,
+   "has_text": false,
+   "has_listeners": false,
+   "has_genre": false,
+   "aliases": [],
+   "genres": []
+  }
+ },
+ {
+  "function": "get_artist",
+  "args": [
+   "00000000-0000-0000-0000-000000000000"
+  ],
+  "expected": null
+ },
+ {
+  "function": "get_artists",
+  "args": [
+   [
+    "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "0004d643-96e3-486a-bafe-eb792871ce9f",
+    "00000000-0000-0000-0000-000000000000"
+   ]
+  ],
+  "expected": [
+   {
+    "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "name": "Radiohead",
+    "in_catalog": true,
+    "sort_name": "Radiohead",
+    "artist_type": "Group",
+    "country": "GB",
+    "begin_year": 1991,
+    "end_year": null,
+    "gender": null,
+    "popularity": 461120.0,
+    "popularity_percentile": 1.0,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Radio Head",
+     "Radiohead",
+     "Radiohead & Thom Yorke",
+     "r/head",
+     "レディオヘッド",
+     "电台司令"
+    ],
+    "genres": [
+     {
+      "genre": "art rock",
+      "weight": 0.6976744186046512
+     },
+     {
+      "genre": "alternative rock",
+      "weight": 0.5
+     },
+     {
+      "genre": "electronic",
+      "weight": 0.5
+     },
+     {
+      "genre": "rock",
+      "weight": 0.4418604651162791
+     },
+     {
+      "genre": "experimental rock",
+      "weight": 0.32558139534883723
+     },
+     {
+      "genre": "indie rock",
+      "weight": 0.11627906976744186
+     },
+     {
+      "genre": "art pop",
+      "weight": 0.06976744186046512
+     },
+     {
+      "genre": "experimental",
+      "weight": 0.06976744186046512
+     }
+    ]
+   },
+   {
+    "mbid": "0004d643-96e3-486a-bafe-eb792871ce9f",
+    "name": "Siddhartha",
+    "in_catalog": false,
+    "sort_name": null,
+    "artist_type": null,
+    "country": null,
+    "begin_year": null,
+    "end_year": null,
+    "gender": null,
+    "popularity": null,
+    "popularity_percentile": null,
+    "has_audio": false,
+    "has_text": false,
+    "has_listeners": false,
+    "has_genre": false,
+    "aliases": [],
+    "genres": []
+   },
+   null
+  ]
+ },
+ {
+  "function": "get_artist_tracks",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+  ],
+  "expected": [
+   {
+    "id": 5,
+    "recording_mbid": "70595637-9310-45f2-a266-58f8de4874a7",
+    "title": "Creep",
+    "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "duration_ms": 236666,
+    "release_date": "1992-09-21",
+    "has_preview": true
+   },
+   {
+    "id": 1,
+    "recording_mbid": "9e2ad5bc-c6f9-40d2-a36f-3122ee2072a3",
+    "title": "Karma Police",
+    "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "duration_ms": 262426,
+    "release_date": "1997-05-21",
+    "has_preview": true
+   },
+   {
+    "id": 3,
+    "recording_mbid": "980a426e-623e-4ea5-98c7-008d037a0508",
+    "title": "No Surprises",
+    "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "duration_ms": 228533,
+    "release_date": "1997-05-21",
+    "has_preview": true
+   },
+   {
+    "id": 2,
+    "recording_mbid": "9f9cf187-d6f9-437f-9d98-d59cdbd52757",
+    "title": "Paranoid Android",
+    "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "duration_ms": 384000,
+    "release_date": "1997-05-21",
+    "has_preview": true
+   },
+   {
+    "id": 4,
+    "recording_mbid": "72c6b4d3-71a8-4c70-bf50-da11c0149089",
+    "title": "All I Need",
+    "artist_mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "duration_ms": 228746,
+    "release_date": "2007-10-10",
+    "has_preview": true
+   }
+  ]
+ },
+ {
+  "function": "get_artist_tracks",
+  "args": [
+   "0004d643-96e3-486a-bafe-eb792871ce9f"
+  ],
+  "expected": []
+ },
+ {
+  "function": "get_artist_tracks",
+  "args": [
+   "00000000-0000-0000-0000-000000000000"
+  ],
+  "expected": []
+ },
+ {
+  "function": "similarity_between",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+  ],
+  "expected": {
+   "mbid_a": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "mbid_b": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+   "scores": {
+    "listeners": 0.889118,
+    "audio": 0.829717,
+    "text": 0.729257,
+    "genre": 0.42505
+   },
+   "shared_genres": [
+    "alternative rock",
+    "rock"
+   ]
+  }
+ },
+ {
+  "function": "similarity_between",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50"
+  ],
+  "expected": {
+   "mbid_a": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "mbid_b": "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "scores": {
+    "listeners": null,
+    "audio": null,
+    "text": 0.523917,
+    "genre": 0.192936
+   },
+   "shared_genres": [
+    "rock"
+   ]
+  }
+ },
+ {
+  "function": "similarity_between",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "0004d643-96e3-486a-bafe-eb792871ce9f"
+  ],
+  "expected": null
+ },
+ {
+  "function": "nearest_to_vector",
+  "args": [
+   [
+    -0.15228271484375,
+    0.029399871826171875,
+    -0.05853271484375,
+    0.00347900390625,
+    -0.03957366943359375,
+    0.19769287109375,
+    -0.107147216796875,
+    -0.16424560546875,
+    0.03469085693359375,
+    0.1025238037109375,
+    0.08270263671875,
+    0.137420654296875,
+    -0.18731689453125,
+    -0.02787017822265625,
+    -0.100341796875,
+    0.03206634521484375,
+    -0.01515960693359375,
+    -0.079132080078125,
+    -0.05328369140625,
+    -0.0474853515625,
+    0.01296234130859375,
+    0.00998687744140625,
+    -0.0592498779296875,
+    0.078369140625,
+    0.06589889526367188,
+    0.0877838134765625,
+    -0.09576416015625,
+    0.0666046142578125,
+    -0.0073089599609375,
+    -0.043071746826171875,
+    0.01535797119140625,
+    0.0470428466796875,
+    0.069183349609375,
+    -0.115142822265625,
+    -0.014445304870605469,
+    0.022617340087890625,
+    -0.039794921875,
+    -0.144317626953125,
+    -0.113250732421875,
+    0.17755126953125,
+    0.03673744201660156,
+    -0.042194366455078125,
+    0.158935546875,
+    -0.08159637451171875,
+    0.0999755859375,
+    0.076385498046875,
+    -0.112396240234375,
+    -0.02353668212890625,
+    0.05672454833984375,
+    0.0752105712890625,
+    -0.084564208984375,
+    -0.0911865234375,
+    -0.1343994140625,
+    0.109588623046875,
+    0.13140869140625,
+    0.02838134765625,
+    -0.09747314453125,
+    0.104400634765625,
+    -0.00112152099609375,
+    0.00927734375,
+    -0.0252838134765625,
+    -0.17950439453125,
+    -0.010189056396484375,
+    -0.118255615234375,
+    -0.10064697265625,
+    0.03542327880859375,
+    0.02275848388671875,
+    0.0972900390625,
+    -0.15130615234375,
+    -0.03023529052734375,
+    0.193603515625,
+    -0.01346588134765625,
+    -0.1383056640625,
+    0.017059326171875,
+    0.10076904296875,
+    0.11138916015625,
+    -0.1317138671875,
+    -0.092681884765625,
+    -0.0760345458984375,
+    -0.0872802734375,
+    0.0460968017578125,
+    0.056915283203125,
+    -0.0593719482421875,
+    0.023525238037109375,
+    -0.0337371826171875,
+    -0.08953857421875,
+    -0.0543670654296875,
+    0.06389379501342773,
+    -0.0875396728515625,
+    -0.061553955078125,
+    -0.141448974609375,
+    0.03762054443359375,
+    -0.068328857421875,
+    0.170654296875,
+    0.068359375,
+    -0.13311767578125,
+    0.0272979736328125,
+    -0.05660367012023926,
+    0.002605915069580078,
+    0.0001373291015625,
+    -0.01589202880859375,
+    0.116973876953125,
+    -0.2205810546875,
+    0.06884765625,
+    0.070220947265625,
+    -0.006262540817260742,
+    -0.0001220703125,
+    -0.0548248291015625,
+    0.1702880859375,
+    -0.0457611083984375,
+    0.009552955627441406,
+    -0.02510833740234375,
+    -0.026491165161132812,
+    -0.085784912109375,
+    0.03374481201171875,
+    0.081634521484375,
+    -0.00031280517578125,
+    -0.0553131103515625,
+    -0.0481719970703125,
+    -0.0510101318359375,
+    0.027141571044921875,
+    0.017887115478515625,
+    -0.013446807861328125,
+    0.102874755859375,
+    0.0725555419921875,
+    0.059749603271484375,
+    -0.0489349365234375,
+    -0.01712799072265625,
+    -0.009412765502929688,
+    0.053680419921875,
+    0.0764617919921875,
+    -0.0103607177734375,
+    -0.018457412719726562,
+    0.11126708984375,
+    -0.042842864990234375,
+    0.0244598388671875,
+    0.080718994140625,
+    -0.0500946044921875,
+    -0.0055065155029296875,
+    0.0521697998046875,
+    0.0186614990234375,
+    0.083251953125,
+    0.020725250244140625,
+    -0.107330322265625,
+    -0.006114959716796875,
+    0.0815277099609375,
+    -0.15496826171875,
+    -0.0049591064453125,
+    -0.01889801025390625,
+    0.042449951171875,
+    -0.0292510986328125,
+    -0.07171630859375,
+    0.022642135620117188,
+    -0.23040771484375,
+    -0.07574462890625,
+    -0.0594940185546875,
+    0.1292724609375,
+    0.0731048583984375,
+    0.0850830078125,
+    -0.049530029296875,
+    -0.0522918701171875,
+    -0.093841552734375,
+    0.107391357421875,
+    0.040557861328125,
+    -0.0611114501953125,
+    -0.013713836669921875,
+    -0.038177490234375,
+    -0.0025734901428222656,
+    -0.07489013671875,
+    0.093505859375,
+    0.0051116943359375,
+    0.05938720703125,
+    0.10418701171875,
+    -0.0423126220703125,
+    -0.130889892578125,
+    -0.14385986328125,
+    0.02056884765625,
+    0.09588623046875,
+    0.03207206726074219,
+    -0.144775390625,
+    -0.024227142333984375,
+    -0.084686279296875,
+    0.011928558349609375,
+    -0.128082275390625,
+    -0.00305938720703125,
+    0.117584228515625,
+    -0.0634765625,
+    -0.112548828125,
+    -0.0230712890625,
+    -0.112579345703125,
+    0.0772857666015625,
+    0.06562042236328125,
+    0.0764617919921875,
+    0.07373046875,
+    -0.0331878662109375,
+    -0.114288330078125,
+    -0.0489044189453125,
+    -0.142791748046875,
+    0.00406646728515625,
+    0.10223388671875,
+    -0.1734619140625,
+    -0.054290771484375,
+    0.014590024948120117,
+    0.17010498046875,
+    0.190185546875,
+    -0.038970947265625,
+    -0.0212860107421875,
+    -0.084716796875,
+    0.04143524169921875,
+    -0.00630950927734375,
+    0.003643035888671875,
+    0.097320556640625,
+    -0.092437744140625,
+    -0.07198333740234375,
+    -0.021759033203125,
+    0.0549468994140625,
+    0.016172409057617188,
+    0.00240325927734375,
+    -0.105743408203125,
+    -0.0472564697265625,
+    -0.002079010009765625,
+    -0.1024169921875,
+    0.03841400146484375,
+    -0.04683685302734375,
+    -0.015537261962890625,
+    0.087921142578125,
+    -0.13153076171875,
+    -0.0626983642578125,
+    0.076080322265625,
+    0.01015472412109375,
+    -0.09228515625,
+    0.04088592529296875,
+    -0.049072265625,
+    -0.13494873046875,
+    0.0646209716796875,
+    -0.089019775390625,
+    -0.0213165283203125,
+    0.04688262939453125,
+    -0.039886474609375,
+    -0.07452392578125,
+    0.16314697265625,
+    -0.045135498046875,
+    0.10931396484375,
+    0.00326693058013916,
+    0.06157684326171875,
+    0.009380340576171875,
+    0.038402557373046875,
+    0.0597991943359375,
+    -0.1634521484375,
+    0.0032958984375,
+    0.0130462646484375,
+    -0.0513916015625,
+    -0.0362548828125,
+    -0.087371826171875,
+    -0.004039764404296875,
+    0.0060882568359375,
+    0.016062259674072266,
+    0.02386474609375,
+    -0.0494537353515625,
+    0.088775634765625,
+    -0.16619873046875,
+    -0.14031982421875,
+    -0.001847982406616211,
+    -0.126739501953125,
+    -0.101348876953125,
+    -0.02666473388671875,
+    0.2093505859375,
+    -0.01828765869140625,
+    -0.0583953857421875,
+    -0.0970458984375,
+    0.075164794921875,
+    -0.01927947998046875,
+    0.02725982666015625,
+    -0.0943603515625,
+    0.1116790771484375,
+    0.013881683349609375,
+    0.0512237548828125,
+    -0.01903533935546875,
+    -0.089691162109375,
+    0.18798828125,
+    -0.00281524658203125,
+    -0.04681396484375,
+    -0.10809326171875,
+    0.03940582275390625,
+    -0.01558685302734375,
+    -0.0712890625,
+    -0.007752418518066406,
+    0.04027557373046875,
+    -0.098968505859375,
+    0.026714324951171875,
+    -0.00522613525390625,
+    0.13055419921875,
+    -0.084991455078125,
+    0.00347137451171875,
+    -0.013826370239257812,
+    -0.0336456298828125,
+    -0.1541748046875,
+    0.2838134765625,
+    0.00066375732421875,
+    0.20843505859375,
+    0.05718994140625,
+    0.045047760009765625,
+    0.02117025852203369,
+    0.005157470703125,
+    0.031646728515625,
+    0.23095703125,
+    -0.01651763916015625,
+    -0.03697824478149414,
+    0.1563720703125,
+    -0.0673370361328125,
+    0.0030670166015625,
+    0.01647186279296875,
+    0.025634765625,
+    -0.0682373046875,
+    -0.135986328125,
+    -0.124969482421875,
+    0.032314300537109375,
+    -0.11260986328125,
+    -0.093017578125,
+    0.04346466064453125,
+    -0.045074462890625,
+    -0.174072265625,
+    -0.010646820068359375,
+    0.067901611328125,
+    -0.1812744140625,
+    -0.109283447265625,
+    0.07891845703125,
+    -0.1785888671875,
+    -0.13958740234375,
+    -0.013553619384765625,
+    0.012231588363647461,
+    0.03404426574707031,
+    0.0841064453125,
+    0.001697540283203125,
+    0.19110107421875,
+    0.0894775390625,
+    0.0604400634765625,
+    0.018596649169921875,
+    0.0578155517578125,
+    0.03272247314453125,
+    -0.045386314392089844,
+    6.4849853515625e-05,
+    0.0474090576171875,
+    -0.15325927734375,
+    -0.0426483154296875,
+    0.02622222900390625,
+    -0.02404022216796875,
+    -0.16815185546875,
+    0.027011871337890625,
+    0.0930633544921875,
+    0.08599853515625,
+    0.0269927978515625,
+    0.11517333984375,
+    0.05169677734375,
+    -0.11572265625,
+    0.062652587890625,
+    -0.101104736328125,
+    -0.02814483642578125,
+    -0.047687530517578125,
+    0.076202392578125,
+    -0.072357177734375,
+    -0.0257568359375,
+    0.067413330078125,
+    -0.00604248046875,
+    0.0300750732421875,
+    0.106658935546875,
+    0.023305892944335938,
+    -0.04872894287109375,
+    0.0573883056640625,
+    0.080718994140625,
+    -0.0541229248046875,
+    0.1165771484375,
+    -0.01605701446533203,
+    -0.0496368408203125,
+    -0.08349609375,
+    -0.0183258056640625,
+    0.02333831787109375,
+    -0.097900390625,
+    -0.046417236328125,
+    -0.04361724853515625,
+    -0.029144287109375,
+    -0.01225900650024414,
+    0.080413818359375,
+    -0.03863525390625,
+    -0.00254058837890625,
+    -0.074493408203125,
+    -0.0576629638671875,
+    -0.007137298583984375,
+    -0.136810302734375,
+    0.136871337890625,
+    -0.03177642822265625,
+    0.1351318359375,
+    -0.090057373046875,
+    0.06744384765625,
+    -0.002593994140625,
+    0.11309814453125,
+    -0.112091064453125,
+    -0.141387939453125,
+    0.0322418212890625,
+    0.095245361328125,
+    -0.08270263671875,
+    0.13360595703125,
+    -0.06911468505859375,
+    -0.012939453125,
+    -0.026884078979492188,
+    0.0025634765625,
+    -0.017513275146484375,
+    0.010517120361328125,
+    -0.05590057373046875,
+    -0.08489990234375,
+    0.0084075927734375,
+    0.01975250244140625,
+    0.165283203125,
+    0.025750160217285156,
+    -0.018308639526367188,
+    -0.07275390625,
+    0.142852783203125,
+    -0.0626373291015625,
+    0.052642822265625,
+    0.0412750244140625,
+    -0.0279083251953125,
+    -0.0153656005859375,
+    -0.148712158203125,
+    -0.07513427734375,
+    0.104217529296875,
+    0.03456878662109375,
+    0.0408172607421875,
+    -0.001861572265625,
+    -0.131011962890625,
+    0.03271484375,
+    -0.0457916259765625,
+    0.046905517578125,
+    0.015241622924804688,
+    -0.022930145263671875,
+    -0.04718017578125,
+    -0.090911865234375,
+    -0.004058837890625,
+    -0.0943603515625,
+    -0.1612548828125,
+    -0.0269622802734375,
+    -0.22607421875,
+    -0.099578857421875,
+    0.03851318359375,
+    0.145172119140625,
+    -0.11541748046875,
+    -0.112091064453125,
+    0.0013885498046875,
+    0.00241851806640625,
+    0.118682861328125,
+    -0.01016998291015625,
+    0.0443878173828125,
+    -0.035152435302734375,
+    0.028980255126953125,
+    0.080230712890625,
+    0.0497283935546875,
+    -0.1221923828125,
+    0.045867919921875,
+    0.0155029296875,
+    -0.038604736328125,
+    0.018680572509765625,
+    -0.1610107421875,
+    0.0370330810546875,
+    -0.094573974609375,
+    -0.121917724609375,
+    0.126251220703125,
+    0.0838623046875,
+    0.0048980712890625,
+    0.165374755859375,
+    -0.146453857421875,
+    0.047393798828125,
+    0.05854034423828125,
+    -0.15203857421875,
+    0.03480339050292969,
+    0.0074462890625,
+    0.071044921875,
+    0.22198486328125,
+    0.1097412109375,
+    0.017242431640625,
+    -0.011081695556640625,
+    -0.107452392578125,
+    -0.03072357177734375,
+    -0.06096649169921875,
+    0.020043253898620605,
+    -0.03559112548828125,
+    0.019968032836914062,
+    0.11602783203125,
+    -0.03486061096191406,
+    -0.029285430908203125,
+    -0.006092071533203125,
+    -0.080780029296875,
+    0.09381103515625,
+    0.0378570556640625,
+    0.0080108642578125,
+    -0.03582763671875,
+    0.0478668212890625,
+    0.1202392578125,
+    -0.0705108642578125,
+    -0.07369232177734375,
+    -0.021327972412109375,
+    0.0684814453125,
+    0.121795654296875,
+    0.122955322265625,
+    0.0189056396484375,
+    0.117645263671875,
+    -0.039703369140625,
+    -0.07556915283203125,
+    -0.12152099609375,
+    -0.0675048828125,
+    0.00827789306640625,
+    -0.012210845947265625,
+    -0.141845703125,
+    -0.029483795166015625
+   ],
+   "audio",
+   15,
+   [
+    "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "cc197bad-dc9c-440d-a5b5-d52ba2e14234"
+   ]
+  ],
+  "expected": [
+   {
+    "mbid": "c7020c6d-cae9-4db3-92a7-e5c561cbad50",
+    "name": "Keane",
+    "score": 0.926509,
+    "signal": "audio"
+   },
+   {
+    "mbid": "d4d17620-fd97-4574-92a8-a2cb7e72ce42",
+    "name": "The Verve",
+    "score": 0.921394,
+    "signal": "audio"
+   },
+   {
+    "mbid": "21f8e84f-f6ce-4fb4-b79f-9c4c24774f64",
+    "name": "Palmy",
+    "score": 0.91968,
+    "signal": "audio"
+   },
+   {
+    "mbid": "302716e4-a702-4bbc-baac-591f8a8e20bc",
+    "name": "Rebecca St. James",
+    "score": 0.918934,
+    "signal": "audio"
+   },
+   {
+    "mbid": "fb821608-35fd-4a45-a4b2-1a0537cee111",
+    "name": "She & Him",
+    "score": 0.918779,
+    "signal": "audio"
+   },
+   {
+    "mbid": "cf59723d-febb-4481-9b9b-3cb2c7f2a7e6",
+    "name": "Koe Wetzel",
+    "score": 0.912403,
+    "signal": "audio"
+   },
+   {
+    "mbid": "871fe26f-544d-4275-a5dd-af5442d15b92",
+    "name": "Pinegrove",
+    "score": 0.911944,
+    "signal": "audio"
+   },
+   {
+    "mbid": "136c4166-85b3-4994-aa04-59857c434199",
+    "name": "Fun",
+    "score": 0.909288,
+    "signal": "audio"
+   },
+   {
+    "mbid": "c1f1cf38-1fee-4106-871d-ac392a28b91a",
+    "name": "Ricky Montgomery",
+    "score": 0.908096,
+    "signal": "audio"
+   },
+   {
+    "mbid": "34557d8f-ee4a-44ab-ae6e-49bb8ac604d0",
+    "name": "Cigarettes After Sex",
+    "score": 0.907905,
+    "signal": "audio"
+   },
+   {
+    "mbid": "96855c21-b832-4366-ba12-0d2330c36a86",
+    "name": "Phoebe Bridgers",
+    "score": 0.906997,
+    "signal": "audio"
+   },
+   {
+    "mbid": "883cbf1f-dcaa-4d17-b9ed-394e1fdabc87",
+    "name": "Rex Orange County",
+    "score": 0.90644,
+    "signal": "audio"
+   },
+   {
+    "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+    "name": "Oasis",
+    "score": 0.905538,
+    "signal": "audio"
+   },
+   {
+    "mbid": "7808accb-6395-4b25-858c-678bbb73896b",
+    "name": "Bastille",
+    "score": 0.903708,
+    "signal": "audio"
+   },
+   {
+    "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+    "name": "U2",
+    "score": 0.903208,
+    "signal": "audio"
+   }
+  ]
+ },
+ {
+  "function": "nearest_to_vector",
+  "args": [
+   [
+    1.0,
+    2.0
+   ],
+   "audio",
+   5,
+   []
+  ],
+  "expected": []
+ },
+ {
+  "function": "get_vector",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "audio"
+  ],
+  "expected": [
+   -0.080078125,
+   0.007671356201171875,
+   -0.03228759765625,
+   0.0249481201171875,
+   -0.028717041015625,
+   0.0872802734375,
+   -0.0667724609375,
+   -0.06854248046875,
+   0.01026153564453125,
+   0.07550048828125,
+   0.05462646484375,
+   0.036651611328125,
+   -0.0849609375,
+   -0.014190673828125,
+   -0.03759765625,
+   0.01708984375,
+   -0.0091400146484375,
+   -0.03656005859375,
+   -0.058502197265625,
+   -0.0275115966796875,
+   0.0089874267578125,
+   0.0237884521484375,
+   -0.0218658447265625,
+   0.022003173828125,
+   0.061187744140625,
+   0.0309906005859375,
+   -0.05828857421875,
+   0.0290985107421875,
+   -0.005496978759765625,
+   0.007495880126953125,
+   0.0039825439453125,
+   0.03717041015625,
+   0.04803466796875,
+   -0.057952880859375,
+   -0.01313018798828125,
+   0.021087646484375,
+   -0.0192108154296875,
+   -0.08892822265625,
+   -0.05615234375,
+   0.08123779296875,
+   0.0030155181884765625,
+   -0.006671905517578125,
+   0.06427001953125,
+   -0.072998046875,
+   0.047607421875,
+   0.010528564453125,
+   -0.036468505859375,
+   -0.008026123046875,
+   0.041259765625,
+   0.0300750732421875,
+   -0.03533935546875,
+   -0.04034423828125,
+   -0.059814453125,
+   0.029815673828125,
+   0.08740234375,
+   0.045440673828125,
+   -0.04302978515625,
+   0.0506591796875,
+   0.010955810546875,
+   0.001644134521484375,
+   0.0051116943359375,
+   -0.1041259765625,
+   -0.00324249267578125,
+   -0.045135498046875,
+   -0.030029296875,
+   0.01546478271484375,
+   0.0186309814453125,
+   0.0516357421875,
+   -0.063232421875,
+   -0.020904541015625,
+   0.1016845703125,
+   0.00458526611328125,
+   -0.06243896484375,
+   0.00897979736328125,
+   0.049713134765625,
+   0.04681396484375,
+   -0.068359375,
+   -0.053436279296875,
+   -0.051422119140625,
+   -0.049774169921875,
+   0.0186614990234375,
+   0.01934814453125,
+   -0.0167999267578125,
+   0.005580902099609375,
+   -0.043701171875,
+   -0.0478515625,
+   -0.0251007080078125,
+   0.06439208984375,
+   -0.0298309326171875,
+   -0.0267333984375,
+   -0.062286376953125,
+   0.01244354248046875,
+   -0.04205322265625,
+   0.1092529296875,
+   0.01947021484375,
+   -0.0966796875,
+   0.0176849365234375,
+   0.0002505779266357422,
+   0.002239227294921875,
+   0.006061553955078125,
+   0.01276397705078125,
+   0.058624267578125,
+   -0.0941162109375,
+   0.036529541015625,
+   0.036376953125,
+   -0.00582122802734375,
+   0.0243377685546875,
+   -0.0119476318359375,
+   0.10003662109375,
+   -0.0235137939453125,
+   0.0084075927734375,
+   0.00632476806640625,
+   -0.025299072265625,
+   -0.0484619140625,
+   0.01552581787109375,
+   0.034759521484375,
+   -0.0095672607421875,
+   -0.029815673828125,
+   -0.0148468017578125,
+   -0.025054931640625,
+   0.0197906494140625,
+   0.0247039794921875,
+   -0.004146575927734375,
+   0.043701171875,
+   0.0282135009765625,
+   0.002834320068359375,
+   -0.0267791748046875,
+   -0.0105133056640625,
+   -0.008941650390625,
+   0.035247802734375,
+   0.05401611328125,
+   -0.03021240234375,
+   -0.0013980865478515625,
+   0.0552978515625,
+   -0.007106781005859375,
+   0.038299560546875,
+   0.036346435546875,
+   -0.0162811279296875,
+   -0.00705718994140625,
+   0.0244903564453125,
+   0.01458740234375,
+   0.03985595703125,
+   0.026214599609375,
+   -0.04705810546875,
+   -0.00927734375,
+   0.06292724609375,
+   -0.08953857421875,
+   0.0127716064453125,
+   -0.0085906982421875,
+   0.0227203369140625,
+   -0.009063720703125,
+   -0.048675537109375,
+   0.0240020751953125,
+   -0.12646484375,
+   -0.0428466796875,
+   -0.036651611328125,
+   0.06964111328125,
+   0.047576904296875,
+   0.01849365234375,
+   -0.030181884765625,
+   -0.029876708984375,
+   -0.0528564453125,
+   0.0516357421875,
+   0.01336669921875,
+   -0.0250701904296875,
+   -0.0176849365234375,
+   -0.0205841064453125,
+   -0.0016450881958007812,
+   -0.034698486328125,
+   0.05767822265625,
+   -0.00276947021484375,
+   0.012451171875,
+   0.051239013671875,
+   -0.0287017822265625,
+   -0.047943115234375,
+   -0.05316162109375,
+   0.033172607421875,
+   0.04449462890625,
+   0.0028972625732421875,
+   -0.05535888671875,
+   -0.004344940185546875,
+   -0.0318603515625,
+   -0.006381988525390625,
+   -0.08343505859375,
+   0.01479339599609375,
+   0.06781005859375,
+   -0.0223388671875,
+   -0.056396484375,
+   0.011322021484375,
+   -0.0677490234375,
+   0.049285888671875,
+   0.01450347900390625,
+   0.04571533203125,
+   0.034820556640625,
+   -0.018310546875,
+   -0.047943115234375,
+   -0.02020263671875,
+   -0.08367919921875,
+   -0.01477813720703125,
+   0.0677490234375,
+   -0.068115234375,
+   -0.0302886962890625,
+   0.0148773193359375,
+   0.0709228515625,
+   0.09814453125,
+   -0.022857666015625,
+   -0.02520751953125,
+   -0.0323486328125,
+   0.031890869140625,
+   -0.021331787109375,
+   0.01117706298828125,
+   0.032745361328125,
+   -0.0560302734375,
+   -0.0628662109375,
+   0.013824462890625,
+   0.04339599609375,
+   0.0193634033203125,
+   -0.01544952392578125,
+   -0.051116943359375,
+   -0.0112457275390625,
+   -0.00872039794921875,
+   -0.046966552734375,
+   0.01544952392578125,
+   -0.01250457763671875,
+   -0.01081085205078125,
+   0.0374755859375,
+   -0.054931640625,
+   -0.0229644775390625,
+   0.049713134765625,
+   0.0179595947265625,
+   -0.04364013671875,
+   0.01367950439453125,
+   -0.02301025390625,
+   -0.0977783203125,
+   0.038177490234375,
+   -0.046142578125,
+   -0.0125579833984375,
+   0.00861358642578125,
+   -0.0149688720703125,
+   -0.031951904296875,
+   0.07611083984375,
+   -0.025390625,
+   0.0731201171875,
+   0.00307464599609375,
+   0.01384735107421875,
+   0.007106781005859375,
+   0.03106689453125,
+   0.030853271484375,
+   -0.09722900390625,
+   -0.01097869873046875,
+   0.02923583984375,
+   -0.032684326171875,
+   -0.0175628662109375,
+   -0.032562255859375,
+   0.006603240966796875,
+   0.0220489501953125,
+   0.0166168212890625,
+   0.0323486328125,
+   -0.019073486328125,
+   0.052825927734375,
+   -0.09527587890625,
+   -0.07763671875,
+   -0.00042891502380371094,
+   -0.057098388671875,
+   -0.0689697265625,
+   -0.00972747802734375,
+   0.12420654296875,
+   -0.00879669189453125,
+   -0.030487060546875,
+   -0.041595458984375,
+   0.033843994140625,
+   -0.00771331787109375,
+   0.01091766357421875,
+   -0.05377197265625,
+   0.0312347412109375,
+   0.0081634521484375,
+   0.0205841064453125,
+   -0.033111572265625,
+   -0.032501220703125,
+   0.0966796875,
+   0.004192352294921875,
+   -0.0293731689453125,
+   -0.03863525390625,
+   0.0279388427734375,
+   0.00910186767578125,
+   -0.041839599609375,
+   -0.0093841552734375,
+   0.027374267578125,
+   -0.06719970703125,
+   0.0226593017578125,
+   0.01009368896484375,
+   0.04827880859375,
+   -0.050750732421875,
+   0.014129638671875,
+   0.0037975311279296875,
+   -0.0157470703125,
+   -0.08184814453125,
+   0.154296875,
+   0.01108551025390625,
+   0.1197509765625,
+   0.017059326171875,
+   0.040618896484375,
+   -0.0001310110092163086,
+   0.0029621124267578125,
+   0.04095458984375,
+   0.1129150390625,
+   -0.0290985107421875,
+   -0.037445068359375,
+   0.06671142578125,
+   -0.048126220703125,
+   0.01177215576171875,
+   -0.01306915283203125,
+   0.01357269287109375,
+   -0.03668212890625,
+   -0.05194091796875,
+   -0.06512451171875,
+   -0.004764556884765625,
+   -0.05059814453125,
+   -0.038360595703125,
+   0.02850341796875,
+   -0.023162841796875,
+   -0.0634765625,
+   -0.002582550048828125,
+   0.03424072265625,
+   -0.09625244140625,
+   -0.054473876953125,
+   0.04156494140625,
+   -0.1016845703125,
+   -0.0640869140625,
+   -0.00595855712890625,
+   -0.00041794776916503906,
+   0.0036029815673828125,
+   0.03741455078125,
+   -0.005126953125,
+   0.0980224609375,
+   0.048248291015625,
+   0.0170745849609375,
+   0.021392822265625,
+   0.043487548828125,
+   0.043426513671875,
+   0.0014581680297851562,
+   0.0048370361328125,
+   0.03326416015625,
+   -0.08880615234375,
+   -0.0104217529296875,
+   -0.00667572021484375,
+   -0.00847625732421875,
+   -0.086669921875,
+   0.022491455078125,
+   0.0284881591796875,
+   0.0467529296875,
+   0.014312744140625,
+   0.06463623046875,
+   0.023223876953125,
+   -0.04437255859375,
+   0.026397705078125,
+   -0.05413818359375,
+   -0.017120361328125,
+   0.005962371826171875,
+   0.043243408203125,
+   -0.0164794921875,
+   0.01910400390625,
+   0.053466796875,
+   -0.0028171539306640625,
+   0.03912353515625,
+   0.0706787109375,
+   0.0015621185302734375,
+   -0.040924072265625,
+   0.0418701171875,
+   0.03369140625,
+   -0.039031982421875,
+   0.0841064453125,
+   -0.0173492431640625,
+   -0.0185394287109375,
+   -0.042236328125,
+   0.009857177734375,
+   0.01041412353515625,
+   -0.0411376953125,
+   -0.0291900634765625,
+   -0.01515960693359375,
+   -0.009185791015625,
+   -0.01300048828125,
+   0.0357666015625,
+   -0.0185546875,
+   -0.00997161865234375,
+   -0.050750732421875,
+   -0.032989501953125,
+   -0.00853729248046875,
+   -0.055328369140625,
+   0.045379638671875,
+   -0.0230255126953125,
+   0.08026123046875,
+   -0.056060791015625,
+   0.040374755859375,
+   0.0207366943359375,
+   0.05517578125,
+   -0.054901123046875,
+   -0.057281494140625,
+   0.0075836181640625,
+   0.0426025390625,
+   -0.040008544921875,
+   0.068359375,
+   -0.01406097412109375,
+   0.00228118896484375,
+   -0.028961181640625,
+   -0.01107025146484375,
+   -0.007274627685546875,
+   0.0179443359375,
+   -0.04132080078125,
+   -0.045684814453125,
+   -0.0156402587890625,
+   0.00726318359375,
+   0.0791015625,
+   0.0012750625610351562,
+   -0.0035991668701171875,
+   -0.04144287109375,
+   0.091796875,
+   -0.0219879150390625,
+   0.042449951171875,
+   0.019287109375,
+   -0.019439697265625,
+   -0.04486083984375,
+   -0.057403564453125,
+   -0.025634765625,
+   0.054901123046875,
+   -0.01071929931640625,
+   0.0085296630859375,
+   -0.036590576171875,
+   -0.060943603515625,
+   0.00970458984375,
+   -0.021209716796875,
+   0.0255279541015625,
+   0.0019893646240234375,
+   0.002979278564453125,
+   -0.0169525146484375,
+   -0.043182373046875,
+   0.021484375,
+   -0.033782958984375,
+   -0.06353759765625,
+   -0.01226806640625,
+   -0.10992431640625,
+   -0.056793212890625,
+   0.036376953125,
+   0.052947998046875,
+   -0.06671142578125,
+   -0.0701904296875,
+   -0.0101165771484375,
+   0.01004791259765625,
+   0.084228515625,
+   0.00894927978515625,
+   0.0271759033203125,
+   -0.04168701171875,
+   0.0216827392578125,
+   0.016571044921875,
+   0.026519775390625,
+   -0.0697021484375,
+   0.012603759765625,
+   -0.009796142578125,
+   -0.0274200439453125,
+   0.004123687744140625,
+   -0.09552001953125,
+   0.016204833984375,
+   -0.038726806640625,
+   -0.058258056640625,
+   0.06500244140625,
+   0.05206298828125,
+   -0.00838470458984375,
+   0.058685302734375,
+   -0.09295654296875,
+   0.02813720703125,
+   0.00516510009765625,
+   -0.06298828125,
+   0.0037212371826171875,
+   -0.00321197509765625,
+   0.017059326171875,
+   0.12359619140625,
+   0.059234619140625,
+   -0.0117950439453125,
+   0.004505157470703125,
+   -0.07196044921875,
+   -0.0208282470703125,
+   -0.054473876953125,
+   0.00014579296112060547,
+   -0.00974273681640625,
+   -0.0038509368896484375,
+   0.05450439453125,
+   -0.033447265625,
+   -0.0261077880859375,
+   0.005115509033203125,
+   -0.058837890625,
+   0.03729248046875,
+   0.020660400390625,
+   0.026702880859375,
+   -0.0172119140625,
+   0.0333251953125,
+   0.05517578125,
+   -0.0290374755859375,
+   -0.062255859375,
+   -0.02777099609375,
+   0.01800537109375,
+   0.057098388671875,
+   0.07275390625,
+   0.00786590576171875,
+   0.06268310546875,
+   -0.023590087890625,
+   -0.01013946533203125,
+   -0.0623779296875,
+   -0.031280517578125,
+   -0.01071929931640625,
+   -0.001697540283203125,
+   -0.07623291015625,
+   0.005641937255859375
+  ]
+ },
+ {
+  "function": "get_vector",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "text"
+  ],
+  "expected": [
+   0.05072021484375,
+   -0.06378173828125,
+   0.024322509765625,
+   -0.057525634765625,
+   0.038604736328125,
+   0.037872314453125,
+   0.08514404296875,
+   0.006107330322265625,
+   -0.054443359375,
+   0.0024890899658203125,
+   -0.0286865234375,
+   -0.10302734375,
+   0.05767822265625,
+   -0.029754638671875,
+   0.0689697265625,
+   0.043365478515625,
+   0.072509765625,
+   -0.064208984375,
+   0.06646728515625,
+   -0.0308837890625,
+   -0.0399169921875,
+   -0.0015544891357421875,
+   0.0080413818359375,
+   0.032379150390625,
+   -0.0157470703125,
+   0.09332275390625,
+   -0.04296875,
+   0.1182861328125,
+   -0.003787994384765625,
+   -0.1353759765625,
+   0.0531005859375,
+   0.06414794921875,
+   -0.06097412109375,
+   -0.08551025390625,
+   -0.00714111328125,
+   -0.010986328125,
+   -0.056427001953125,
+   0.0312347412109375,
+   0.00044226646423339844,
+   0.0215301513671875,
+   -0.079345703125,
+   -0.0021266937255859375,
+   -0.04345703125,
+   -0.0178985595703125,
+   -0.022003173828125,
+   0.0022563934326171875,
+   -0.05303955078125,
+   -0.052642822265625,
+   -0.1199951171875,
+   0.060821533203125,
+   0.1226806640625,
+   -0.0826416015625,
+   -0.037384033203125,
+   -0.0010623931884765625,
+   -0.04022216796875,
+   -0.06201171875,
+   -0.050201416015625,
+   0.062347412109375,
+   0.00585174560546875,
+   0.004131317138671875,
+   0.0328369140625,
+   -0.0187835693359375,
+   0.01015472412109375,
+   -0.0231781005859375,
+   0.01074981689453125,
+   0.0111236572265625,
+   0.0012636184692382812,
+   0.04217529296875,
+   0.03399658203125,
+   -0.03839111328125,
+   -0.0222015380859375,
+   -0.039398193359375,
+   -0.0184173583984375,
+   -0.0343017578125,
+   0.03997802734375,
+   0.00659942626953125,
+   -0.0168609619140625,
+   -0.0150604248046875,
+   -0.025787353515625,
+   -0.0024929046630859375,
+   -0.0020771026611328125,
+   0.0271759033203125,
+   -0.10052490234375,
+   -0.10504150390625,
+   0.01056671142578125,
+   -0.0518798828125,
+   -0.04925537109375,
+   -0.001434326171875,
+   -0.1448974609375,
+   -0.01546478271484375,
+   -0.0689697265625,
+   0.0684814453125,
+   0.022369384765625,
+   0.045623779296875,
+   0.1051025390625,
+   0.0033321380615234375,
+   0.035003662109375,
+   -0.041046142578125,
+   -0.0084075927734375,
+   0.0687255859375,
+   0.01451873779296875,
+   0.072021484375,
+   -0.051422119140625,
+   0.00812530517578125,
+   -0.040496826171875,
+   -0.1651611328125,
+   -0.0124664306640625,
+   0.085693359375,
+   0.0396728515625,
+   -0.059844970703125,
+   0.07159423828125,
+   0.01019287109375,
+   -0.053680419921875,
+   -0.0232391357421875,
+   0.026397705078125,
+   0.00031757354736328125,
+   0.0055389404296875,
+   0.0227203369140625,
+   0.047393798828125,
+   -0.01904296875,
+   -0.04791259765625,
+   0.020660400390625,
+   -0.049713134765625,
+   -0.011566162109375,
+   -0.02093505859375,
+   0.023681640625,
+   -0.11077880859375,
+   0.0,
+   -0.02227783203125,
+   0.02899169921875,
+   0.0277862548828125,
+   0.014984130859375,
+   0.041717529296875,
+   -0.021331787109375,
+   -0.083740234375,
+   0.04058837890625,
+   0.0168304443359375,
+   0.048248291015625,
+   0.00047898292541503906,
+   0.06793212890625,
+   -0.051666259765625,
+   0.040191650390625,
+   0.0306396484375,
+   -0.03759765625,
+   -0.03741455078125,
+   0.0322265625,
+   -0.07269287109375,
+   -0.058746337890625,
+   -0.08892822265625,
+   0.057342529296875,
+   0.06591796875,
+   0.047088623046875,
+   0.0023403167724609375,
+   -0.00144195556640625,
+   -0.0751953125,
+   -0.048187255859375,
+   0.041534423828125,
+   0.0192718505859375,
+   0.00479888916015625,
+   0.031158447265625,
+   -0.00457763671875,
+   0.0240631103515625,
+   -0.01739501953125,
+   -0.0234527587890625,
+   -0.0247344970703125,
+   -0.0499267578125,
+   0.062744140625,
+   -0.0230865478515625,
+   0.060394287109375,
+   -0.039794921875,
+   -0.072265625,
+   0.0230712890625,
+   0.026397705078125,
+   0.038818359375,
+   -0.00838470458984375,
+   -0.057647705078125,
+   0.05206298828125,
+   -0.002826690673828125,
+   0.026458740234375,
+   -0.01401519775390625,
+   -0.074462890625,
+   0.07757568359375,
+   0.08233642578125,
+   0.0008697509765625,
+   -0.072998046875,
+   0.05938720703125,
+   0.00746917724609375,
+   -0.010101318359375,
+   0.0648193359375,
+   0.1424560546875,
+   0.03289794921875,
+   -0.0755615234375,
+   -0.005886077880859375,
+   0.054473876953125,
+   0.157470703125,
+   -0.11370849609375,
+   -0.05633544921875,
+   0.001987457275390625,
+   -0.0131072998046875,
+   0.0220489501953125,
+   0.0343017578125,
+   0.011962890625,
+   0.036346435546875,
+   -0.00022017955780029297,
+   -0.022613525390625,
+   -0.044830322265625,
+   0.04254150390625,
+   0.056243896484375,
+   -0.0294647216796875,
+   0.03143310546875,
+   -0.053924560546875,
+   -0.04888916015625,
+   0.040802001953125,
+   0.0190887451171875,
+   0.0723876953125,
+   -0.076416015625,
+   0.04071044921875,
+   0.0173797607421875,
+   -0.09197998046875,
+   0.0010881423950195312,
+   -0.034698486328125,
+   0.02099609375,
+   -0.03302001953125,
+   -0.0,
+   -0.0205535888671875,
+   -0.043121337890625,
+   0.051422119140625,
+   0.03125,
+   0.06573486328125,
+   0.02630615234375,
+   -0.00083160400390625,
+   -0.04815673828125,
+   0.08599853515625,
+   0.07049560546875,
+   0.00914764404296875,
+   -0.0105133056640625,
+   0.022064208984375,
+   0.00281524658203125,
+   -0.0263519287109375,
+   -0.059539794921875,
+   -0.01000213623046875,
+   -0.0275726318359375,
+   0.0648193359375,
+   0.1004638671875,
+   0.00875091552734375,
+   -0.056243896484375,
+   -0.0421142578125,
+   0.01534271240234375,
+   0.00010919570922851562,
+   0.044677734375,
+   -0.036041259765625,
+   0.0295562744140625,
+   0.053863525390625,
+   -0.0018253326416015625,
+   0.03369140625,
+   0.032318115234375,
+   0.0771484375,
+   -0.08306884765625,
+   0.0250091552734375,
+   0.003452301025390625,
+   0.036285400390625,
+   -0.0022678375244140625,
+   -0.029449462890625,
+   -0.032806396484375,
+   -0.0970458984375,
+   -0.0162506103515625,
+   0.05535888671875,
+   0.07171630859375,
+   0.017730712890625,
+   -0.06201171875,
+   -0.12188720703125,
+   0.056884765625,
+   -0.0153045654296875,
+   -0.00609588623046875,
+   0.030731201171875,
+   -0.0253753662109375,
+   -0.006130218505859375,
+   -0.10736083984375,
+   -0.078369140625,
+   0.0038814544677734375,
+   -0.08721923828125,
+   -0.0233154296875,
+   -0.051544189453125,
+   0.04608154296875,
+   0.0211181640625,
+   -0.014739990234375,
+   -0.00844573974609375,
+   0.0039005279541015625,
+   -0.01763916015625,
+   0.045257568359375,
+   0.0440673828125,
+   0.030120849609375,
+   -0.0423583984375,
+   0.050140380859375,
+   0.021331787109375,
+   0.0162506103515625,
+   -0.05084228515625,
+   -0.07928466796875,
+   0.036224365234375,
+   -0.0245513916015625,
+   -0.00579833984375,
+   -0.00019299983978271484,
+   0.042144775390625,
+   -0.051666259765625,
+   -0.03143310546875,
+   0.11236572265625,
+   -0.007129669189453125,
+   0.0010623931884765625,
+   0.0382080078125,
+   0.085693359375,
+   -0.0504150390625,
+   0.0300750732421875,
+   -0.0482177734375,
+   -0.046844482421875,
+   0.1453857421875,
+   -0.007579803466796875,
+   0.00641632080078125,
+   0.051605224609375,
+   0.022064208984375,
+   -5.960464477539063e-08,
+   0.0389404296875,
+   -0.003543853759765625,
+   0.0284423828125,
+   0.020904541015625,
+   0.033843994140625,
+   0.02923583984375,
+   0.0716552734375,
+   -0.068603515625,
+   0.0077056884765625,
+   -0.0709228515625,
+   -0.029388427734375,
+   -0.027374267578125,
+   0.03826904296875,
+   0.0145721435546875,
+   -0.007503509521484375,
+   -0.032135009765625,
+   -0.15966796875,
+   0.047332763671875,
+   0.002414703369140625,
+   -0.01806640625,
+   0.06329345703125,
+   0.06085205078125,
+   0.10003662109375,
+   -0.06884765625,
+   -0.01526641845703125,
+   0.01342010498046875,
+   0.11474609375,
+   -0.08111572265625,
+   0.016357421875,
+   0.0318603515625,
+   0.0102996826171875,
+   0.00838470458984375,
+   -0.0654296875,
+   0.03607177734375,
+   0.033966064453125,
+   -0.05963134765625,
+   0.0211181640625,
+   0.0008859634399414062,
+   -0.13427734375,
+   0.0193023681640625,
+   0.0303955078125,
+   0.0005865097045898438,
+   0.03582763671875,
+   -0.0180511474609375,
+   -0.06390380859375,
+   -0.053924560546875,
+   -0.006622314453125,
+   0.0135040283203125,
+   0.0092620849609375,
+   -0.0328369140625,
+   -0.01116180419921875,
+   0.0107879638671875,
+   0.00396728515625,
+   0.004238128662109375,
+   0.002544403076171875,
+   0.05401611328125,
+   0.00865936279296875,
+   0.0227508544921875,
+   -0.06817626953125,
+   0.05670166015625,
+   0.0048828125,
+   -0.060943603515625,
+   0.06475830078125,
+   -0.00653839111328125
+  ]
+ },
+ {
+  "function": "get_vector",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "audio"
+  ],
+  "expected": null
+ },
+ {
+  "function": "random_artists",
+  "args": [
+   5,
+   null,
+   42
+  ],
+  "expected": [
+   {
+    "mbid": "9e53f84d-ef44-4c16-9677-5fd4d78cbd7d",
+    "name": "Wilco",
+    "in_catalog": true,
+    "sort_name": "Wilco",
+    "artist_type": "Group",
+    "country": "US",
+    "begin_year": 1994,
+    "end_year": null,
+    "gender": null,
+    "popularity": 193522.0,
+    "popularity_percentile": 0.890411,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Wilco & Syd Straw"
+    ],
+    "genres": [
+     {
+      "genre": "alternative rock",
+      "weight": 1.0
+     },
+     {
+      "genre": "folk rock",
+      "weight": 0.42857142857142855
+     }
+    ]
+   },
+   {
+    "mbid": "779fce7e-c99e-4d0c-bfb1-af7aa1c34e80",
+    "name": "Erkin Koray",
+    "in_catalog": true,
+    "sort_name": "Koray, Erkin",
+    "artist_type": "Person",
+    "country": "TR",
+    "begin_year": 1941,
+    "end_year": 2023,
+    "gender": "male",
+    "popularity": 7443.0,
+    "popularity_percentile": 0.416096,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [],
+    "genres": [
+     {
+      "genre": "anatolian rock",
+      "weight": 1.0
+     }
+    ]
+   },
+   {
+    "mbid": "df1356d3-3c66-48bc-ac79-475c6cf76266",
+    "name": "GUNSHIP",
+    "in_catalog": true,
+    "sort_name": "GUNSHIP",
+    "artist_type": "Group",
+    "country": "GB",
+    "begin_year": 2014,
+    "end_year": null,
+    "gender": null,
+    "popularity": 6227.0,
+    "popularity_percentile": 0.377854,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [],
+    "genres": [
+     {
+      "genre": "synthwave",
+      "weight": 1.0
+     }
+    ]
+   },
+   {
+    "mbid": "b04b7c24-59d2-47f8-8ca8-bcf6f6d106ed",
+    "name": "DVRST",
+    "in_catalog": true,
+    "sort_name": "Dvrst",
+    "artist_type": "Person",
+    "country": "RU",
+    "begin_year": 2003,
+    "end_year": null,
+    "gender": "male",
+    "popularity": 4747.0,
+    "popularity_percentile": 0.322489,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Diverst",
+     "Valera Zaytsev",
+     "Валерий Алексеевич Зайцев",
+     "Валерий Зайцев",
+     "Дивёрст"
+    ],
+    "genres": [
+     {
+      "genre": "dance",
+      "weight": 1.0
+     },
+     {
+      "genre": "drift phonk",
+      "weight": 1.0
+     },
+     {
+      "genre": "drum and bass",
+      "weight": 1.0
+     },
+     {
+      "genre": "electronic",
+      "weight": 1.0
+     },
+     {
+      "genre": "electronica",
+      "weight": 1.0
+     },
+     {
+      "genre": "future bass",
+      "weight": 1.0
+     },
+     {
+      "genre": "phonk",
+      "weight": 1.0
+     },
+     {
+      "genre": "pop",
+      "weight": 1.0
+     },
+     {
+      "genre": "trap",
+      "weight": 1.0
+     }
+    ]
+   },
+   {
+    "mbid": "309c62ba-7a22-4277-9f67-4a162526d18a",
+    "name": "Beck",
+    "in_catalog": true,
+    "sort_name": "Beck",
+    "artist_type": "Person",
+    "country": "US",
+    "begin_year": 1970,
+    "end_year": null,
+    "gender": "male",
+    "popularity": 328166.0,
+    "popularity_percentile": 0.981735,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Beck David Hansen",
+     "Beck Hansen",
+     "Bek David Campbell",
+     "Bjeck",
+     "Mr. Hansen"
+    ],
+    "genres": [
+     {
+      "genre": "alternative rock",
+      "weight": 1.0
+     },
+     {
+      "genre": "folk rock",
+      "weight": 0.5294117647058824
+     },
+     {
+      "genre": "indie rock",
+      "weight": 0.47058823529411764
+     },
+     {
+      "genre": "anti-folk",
+      "weight": 0.35294117647058826
+     },
+     {
+      "genre": "electronic",
+      "weight": 0.17647058823529413
+     },
+     {
+      "genre": "rock",
+      "weight": 0.17647058823529413
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "function": "random_artists",
+  "args": [
+   5,
+   "pop",
+   7
+  ],
+  "expected": [
+   {
+    "mbid": "0103c1cc-4a09-4a5d-a344-56ad99a77193",
+    "name": "Avril Lavigne",
+    "in_catalog": true,
+    "sort_name": "Lavigne, Avril",
+    "artist_type": "Person",
+    "country": "CA",
+    "begin_year": 1984,
+    "end_year": null,
+    "gender": "female",
+    "popularity": 234237.0,
+    "popularity_percentile": 0.924658,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Avril Lavigne",
+     "Avril Lavine",
+     "Avril Lavinge",
+     "Avril Ramona Lavigne",
+     "Avril Ramona Lavigne Kroeger",
+     "Avril Ramona Lavigne Whibley",
+     "アヴリル・ラヴィーン",
+     "艾薇儿"
+    ],
+    "genres": [
+     {
+      "genre": "pop punk",
+      "weight": 1.0
+     },
+     {
+      "genre": "alternative rock",
+      "weight": 0.7222222222222222
+     },
+     {
+      "genre": "pop rock",
+      "weight": 0.7222222222222222
+     },
+     {
+      "genre": "post-grunge",
+      "weight": 0.3333333333333333
+     },
+     {
+      "genre": "pop",
+      "weight": 0.2777777777777778
+     },
+     {
+      "genre": "teen pop",
+      "weight": 0.2222222222222222
+     }
+    ]
+   },
+   {
+    "mbid": "0d79fe8e-ba27-4859-bb8c-2f255f346853",
+    "name": "BTS",
+    "in_catalog": true,
+    "sort_name": "BTS",
+    "artist_type": "Group",
+    "country": "KR",
+    "begin_year": 2013,
+    "end_year": null,
+    "gender": null,
+    "popularity": 16739.0,
+    "popularity_percentile": 0.571347,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "BTS",
+     "Bangtan Boys",
+     "Bangtan Sonyeondan",
+     "Beyond the Scene",
+     "Bulletproof Boy Scouts",
+     "Bōdan Shōnendan",
+     "The Bangtan Boys",
+     "防弾少年団",
+     "방탄",
+     "방탄소년단"
+    ],
+    "genres": [
+     {
+      "genre": "k-pop",
+      "weight": 1.0
+     },
+     {
+      "genre": "pop",
+      "weight": 0.45454545454545453
+     },
+     {
+      "genre": "dance",
+      "weight": 0.2727272727272727
+     }
+    ]
+   },
+   {
+    "mbid": "f4d5cc07-3bc9-4836-9b15-88a08359bc63",
+    "name": "P!nk",
+    "in_catalog": true,
+    "sort_name": "Pink",
+    "artist_type": "Person",
+    "country": "US",
+    "begin_year": 1979,
+    "end_year": null,
+    "gender": "female",
+    "popularity": 218598.0,
+    "popularity_percentile": 0.913242,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Alecia B. Moore",
+     "Alecia Beth Moore",
+     "Alecia Moore",
+     "P.nk",
+     "Pink",
+     "ピンク"
+    ],
+    "genres": [
+     {
+      "genre": "pop",
+      "weight": 1.0
+     },
+     {
+      "genre": "pop rock",
+      "weight": 0.7
+     },
+     {
+      "genre": "dance-pop",
+      "weight": 0.4
+     }
+    ]
+   },
+   {
+    "mbid": "b896aa8c-2761-40ce-b485-0e1fffd26167",
+    "name": "Dusty Springfield",
+    "in_catalog": true,
+    "sort_name": "Springfield, Dusty",
+    "artist_type": "Person",
+    "country": "GB",
+    "begin_year": 1939,
+    "end_year": 1999,
+    "gender": "female",
+    "popularity": 164311.0,
+    "popularity_percentile": 0.865868,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "Mary Isobel Catherine Bernadette O'Brien",
+     "ダスティ・スプリングフィールド",
+     "ダスティ・スプリング・フィールド"
+    ],
+    "genres": [
+     {
+      "genre": "pop",
+      "weight": 1.0
+     }
+    ]
+   },
+   {
+    "mbid": "8da127cc-c432-418f-b356-ef36210d82ac",
+    "name": "TWICE",
+    "in_catalog": true,
+    "sort_name": "TWICE",
+    "artist_type": "Group",
+    "country": "KR",
+    "begin_year": 2015,
+    "end_year": null,
+    "gender": null,
+    "popularity": 10206.0,
+    "popularity_percentile": 0.483447,
+    "has_audio": true,
+    "has_text": true,
+    "has_listeners": true,
+    "has_genre": true,
+    "aliases": [
+     "TWICE",
+     "トゥワイス",
+     "트와이스"
+    ],
+    "genres": [
+     {
+      "genre": "k-pop",
+      "weight": 1.0
+     },
+     {
+      "genre": "pop",
+      "weight": 0.5384615384615384
+     },
+     {
+      "genre": "dance",
+      "weight": 0.38461538461538464
+     },
+     {
+      "genre": "r&b",
+      "weight": 0.23076923076923078
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "function": "resolve_artist",
+  "args": [
+   "radiohead"
+  ],
+  "expected": {
+   "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "name": "Radiohead",
+   "in_catalog": true,
+   "confidence": 1.0
+  }
+ },
+ {
+  "function": "resolve_artist",
+  "args": [
+   "zzzzqqqq"
+  ],
+  "expected": null
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "listeners",
+   15
+  ],
+  "expected": [
+   {
+    "mbid": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
+    "name": "Nirvana",
+    "score": 1.0,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "8bfac288-ccc5-448d-9573-c33ea2aa5c30",
+    "name": "Red Hot Chili Peppers",
+    "score": 0.948996,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+    "name": "Muse",
+    "score": 0.922015,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+    "name": "Coldplay",
+    "score": 0.889118,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+    "name": "The Smashing Pumpkins",
+    "score": 0.865633,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "name": "The Beatles",
+    "score": 0.854249,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+    "name": "Pink Floyd",
+    "score": 0.823862,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "b6b2bb8d-54a9-491f-9607-7b546023b433",
+    "name": "Pixies",
+    "score": 0.8045,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
+    "name": "David Bowie",
+    "score": 0.793474,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+    "name": "Foo Fighters",
+    "score": 0.785676,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+    "name": "Gorillaz",
+    "score": 0.780029,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "ba853904-ae25-4ebb-89d6-c44cfbd71bd2",
+    "name": "Blur",
+    "score": 0.77725,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "ada7a83c-e3e1-40f1-93f9-3e73dbc9298a",
+    "name": "Arctic Monkeys",
+    "score": 0.776533,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "309c62ba-7a22-4277-9f67-4a162526d18a",
+    "name": "Beck",
+    "score": 0.769362,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "ea4dfa26-f633-4da6-a52a-f49ea4897b58",
+    "name": "R.E.M.",
+    "score": 0.768555,
+    "signal": "listeners"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "listeners",
+   10
+  ],
+  "expected": [
+   {
+    "mbid": "e7ab70fc-ae7b-4321-a9d1-4c2e9440e0f5",
+    "name": "LUNA SEA",
+    "score": 1.0,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "0550993e-ddec-468e-b05f-da81bf6f7694",
+    "name": "スピッツ",
+    "score": 0.630952,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "14e410f5-97f2-48ba-b1f7-a3a44cbea05c",
+    "name": "ASIAN KUNG-FU GENERATION",
+    "score": 0.571429,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "27f0af0e-4d1f-4808-a58b-090e400dcc43",
+    "name": "Mr.Children",
+    "score": 0.559524,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "b128a994-2400-432d-b26a-8feede87daa8",
+    "name": "Do As Infinity",
+    "score": 0.547619,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "455641ea-fff4-49f6-8fb4-49f961d8f1ac",
+    "name": "倖田來未",
+    "score": 0.511905,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "6f500293-7396-4903-b4fd-118127d06f9e",
+    "name": "RADWIMPS",
+    "score": 0.464286,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "130d679a-9a92-4373-8348-0800b6b93a30",
+    "name": "初音ミク",
+    "score": 0.392857,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "0f718079-e5ea-4cfb-b512-b2d04da66901",
+    "name": "BUMP OF CHICKEN",
+    "score": 0.369048,
+    "signal": "listeners"
+   },
+   {
+    "mbid": "a16d1433-ba89-4f72-a47b-a370add0bb55",
+    "name": "BoA",
+    "score": 0.321429,
+    "signal": "listeners"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "audio",
+   15
+  ],
+  "expected": [
+   {
+    "mbid": "34557d8f-ee4a-44ab-ae6e-49bb8ac604d0",
+    "name": "Cigarettes After Sex",
+    "score": 0.929355,
+    "signal": "audio"
+   },
+   {
+    "mbid": "871fe26f-544d-4275-a5dd-af5442d15b92",
+    "name": "Pinegrove",
+    "score": 0.915502,
+    "signal": "audio"
+   },
+   {
+    "mbid": "d4d17620-fd97-4574-92a8-a2cb7e72ce42",
+    "name": "The Verve",
+    "score": 0.912882,
+    "signal": "audio"
+   },
+   {
+    "mbid": "c48d4327-8122-4286-af66-05e1ee6ac4d8",
+    "name": "Mazzy Star",
+    "score": 0.904011,
+    "signal": "audio"
+   },
+   {
+    "mbid": "fb821608-35fd-4a45-a4b2-1a0537cee111",
+    "name": "She & Him",
+    "score": 0.896147,
+    "signal": "audio"
+   },
+   {
+    "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+    "name": "Oasis",
+    "score": 0.892825,
+    "signal": "audio"
+   },
+   {
+    "mbid": "78f797e3-4913-4026-aad0-1cd858bd735b",
+    "name": "Bright Eyes",
+    "score": 0.887618,
+    "signal": "audio"
+   },
+   {
+    "mbid": "9833b455-0da2-40b5-8e63-37816c910604",
+    "name": "Wednesday",
+    "score": 0.884927,
+    "signal": "audio"
+   },
+   {
+    "mbid": "739da2f1-0741-4c60-a6ed-f42d49bf2eb1",
+    "name": "Phosphorescent",
+    "score": 0.883494,
+    "signal": "audio"
+   },
+   {
+    "mbid": "9e53f84d-ef44-4c16-9677-5fd4d78cbd7d",
+    "name": "Wilco",
+    "score": 0.880537,
+    "signal": "audio"
+   },
+   {
+    "mbid": "62d364d2-550b-420e-b918-b3bd1e4a2efc",
+    "name": "Broken Bells",
+    "score": 0.877617,
+    "signal": "audio"
+   },
+   {
+    "mbid": "21f8e84f-f6ce-4fb4-b79f-9c4c24774f64",
+    "name": "Palmy",
+    "score": 0.87718,
+    "signal": "audio"
+   },
+   {
+    "mbid": "883cbf1f-dcaa-4d17-b9ed-394e1fdabc87",
+    "name": "Rex Orange County",
+    "score": 0.87567,
+    "signal": "audio"
+   },
+   {
+    "mbid": "915a3ad2-45c7-4a37-90f6-16f57aeddbde",
+    "name": "Rivermaya",
+    "score": 0.874265,
+    "signal": "audio"
+   },
+   {
+    "mbid": "cf59723d-febb-4481-9b9b-3cb2c7f2a7e6",
+    "name": "Koe Wetzel",
+    "score": 0.871959,
+    "signal": "audio"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "audio",
+   10
+  ],
+  "expected": []
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "text",
+   15
+  ],
+  "expected": [
+   {
+    "mbid": "fc7bbf00-fbaa-4736-986b-b3ac0266ca9b",
+    "name": "alt‐J",
+    "score": 0.835763,
+    "signal": "text"
+   },
+   {
+    "mbid": "ba853904-ae25-4ebb-89d6-c44cfbd71bd2",
+    "name": "Blur",
+    "score": 0.818154,
+    "signal": "text"
+   },
+   {
+    "mbid": "8c538f11-c141-4588-8ecb-931083524186",
+    "name": "Bloc Party",
+    "score": 0.789722,
+    "signal": "text"
+   },
+   {
+    "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+    "name": "Muse",
+    "score": 0.786787,
+    "signal": "text"
+   },
+   {
+    "mbid": "6a93afbb-257f-4166-b389-9f2a1e5c5df8",
+    "name": "CHVRCHES",
+    "score": 0.783756,
+    "signal": "text"
+   },
+   {
+    "mbid": "c5c2ea1c-4bde-4f4d-bd0b-47b200bf99d6",
+    "name": "The xx",
+    "score": 0.782199,
+    "signal": "text"
+   },
+   {
+    "mbid": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
+    "name": "Queen",
+    "score": 0.777017,
+    "signal": "text"
+   },
+   {
+    "mbid": "d8915e13-d67a-4aa0-9c0b-1f126af951af",
+    "name": "Hot Chip",
+    "score": 0.771694,
+    "signal": "text"
+   },
+   {
+    "mbid": "7b885d42-3c41-4f43-9944-a5855ec5155e",
+    "name": "Goldfrapp",
+    "score": 0.766145,
+    "signal": "text"
+   },
+   {
+    "mbid": "39ab1aed-75e0-4140-bd47-540276886b60",
+    "name": "Oasis",
+    "score": 0.765836,
+    "signal": "text"
+   },
+   {
+    "mbid": "bf0f7e29-dfe1-416c-b5c6-f9ebc19ea810",
+    "name": "Bee Gees",
+    "score": 0.761175,
+    "signal": "text"
+   },
+   {
+    "mbid": "f1106b17-dcbb-45f6-b938-199ccfab50cc",
+    "name": "New Order",
+    "score": 0.760385,
+    "signal": "text"
+   },
+   {
+    "mbid": "6a65d878-fcd0-42cf-aff9-ca1d636a8bcc",
+    "name": "Foals",
+    "score": 0.756351,
+    "signal": "text"
+   },
+   {
+    "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+    "name": "Gorillaz",
+    "score": 0.749871,
+    "signal": "text"
+   },
+   {
+    "mbid": "8538e728-ca0b-4321-b7e5-cff6565dd4c0",
+    "name": "Depeche Mode",
+    "score": 0.744207,
+    "signal": "text"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "text",
+   10
+  ],
+  "expected": [
+   {
+    "mbid": "e7ab70fc-ae7b-4321-a9d1-4c2e9440e0f5",
+    "name": "LUNA SEA",
+    "score": 0.744104,
+    "signal": "text"
+   },
+   {
+    "mbid": "a70fca82-889a-4f70-98bb-39f7ec968566",
+    "name": "BUCK‐TICK",
+    "score": 0.730736,
+    "signal": "text"
+   },
+   {
+    "mbid": "0550993e-ddec-468e-b05f-da81bf6f7694",
+    "name": "スピッツ",
+    "score": 0.700747,
+    "signal": "text"
+   },
+   {
+    "mbid": "e134b52f-2e9e-4734-9bc3-bea9648d1fa1",
+    "name": "Ado",
+    "score": 0.699377,
+    "signal": "text"
+   },
+   {
+    "mbid": "27f0af0e-4d1f-4808-a58b-090e400dcc43",
+    "name": "Mr.Children",
+    "score": 0.69597,
+    "signal": "text"
+   },
+   {
+    "mbid": "0f718079-e5ea-4cfb-b512-b2d04da66901",
+    "name": "BUMP OF CHICKEN",
+    "score": 0.678659,
+    "signal": "text"
+   },
+   {
+    "mbid": "e69c8ccb-25b1-4c4a-89c6-8fdad1172951",
+    "name": "the pillows",
+    "score": 0.676115,
+    "signal": "text"
+   },
+   {
+    "mbid": "9b127d23-f877-4541-83cd-44f46393dfb7",
+    "name": "鷺巣詩郎",
+    "score": 0.664977,
+    "signal": "text"
+   },
+   {
+    "mbid": "b128a994-2400-432d-b26a-8feede87daa8",
+    "name": "Do As Infinity",
+    "score": 0.661222,
+    "signal": "text"
+   },
+   {
+    "mbid": "14e410f5-97f2-48ba-b1f7-a3a44cbea05c",
+    "name": "ASIAN KUNG-FU GENERATION",
+    "score": 0.657787,
+    "signal": "text"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+   "genre",
+   15
+  ],
+  "expected": [
+   {
+    "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872",
+    "name": "Brian Eno",
+    "score": 0.650098,
+    "signal": "genre"
+   },
+   {
+    "mbid": "94b0fb9d-a066-4823-b2ec-af1d324bcfcf",
+    "name": "The Velvet Underground",
+    "score": 0.578913,
+    "signal": "genre"
+   },
+   {
+    "mbid": "e795e03d-b5d5-4a5f-834d-162cfb308a2c",
+    "name": "PJ Harvey",
+    "score": 0.533634,
+    "signal": "genre"
+   },
+   {
+    "mbid": "9c9f1380-2516-4fc9-a3e6-f9f61941d090",
+    "name": "Muse",
+    "score": 0.531373,
+    "signal": "genre"
+   },
+   {
+    "mbid": "a0327dc2-dc76-44d5-aec6-47cd2dff1469",
+    "name": "Counting Crows",
+    "score": 0.519517,
+    "signal": "genre"
+   },
+   {
+    "mbid": "c98d40fd-f6cf-4b26-883e-eaa515ee2851",
+    "name": "The Cranberries",
+    "score": 0.518068,
+    "signal": "genre"
+   },
+   {
+    "mbid": "4bfce038-b1a0-4bc4-abe1-b679ab900f03",
+    "name": "Django Django",
+    "score": 0.502623,
+    "signal": "genre"
+   },
+   {
+    "mbid": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
+    "name": "Foo Fighters",
+    "score": 0.500082,
+    "signal": "genre"
+   },
+   {
+    "mbid": "a3cb23fc-acd3-4ce0-8f36-1e5aa6a18432",
+    "name": "U2",
+    "score": 0.496526,
+    "signal": "genre"
+   },
+   {
+    "mbid": "e21857d5-3256-4547-afb3-4b6ded592596",
+    "name": "Gorillaz",
+    "score": 0.484958,
+    "signal": "genre"
+   },
+   {
+    "mbid": "309c62ba-7a22-4277-9f67-4a162526d18a",
+    "name": "Beck",
+    "score": 0.484495,
+    "signal": "genre"
+   },
+   {
+    "mbid": "3f8a5e5b-c24b-4068-9f1c-afad8829e06b",
+    "name": "Soda Stereo",
+    "score": 0.483393,
+    "signal": "genre"
+   },
+   {
+    "mbid": "9ff60a50-6288-4b46-8b69-75877450d282",
+    "name": "Plastilina Mosh",
+    "score": 0.474879,
+    "signal": "genre"
+   },
+   {
+    "mbid": "f4fb7c27-7007-4070-892e-b4014d5d86d3",
+    "name": "La Lupita",
+    "score": 0.474879,
+    "signal": "genre"
+   },
+   {
+    "mbid": "6fe07aa5-fec0-4eca-a456-f29bff451b04",
+    "name": "Weezer",
+    "score": 0.470831,
+    "signal": "genre"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "051b8830-8aae-4b4e-a48c-ee8d6a2dec50",
+   "genre",
+   10
+  ],
+  "expected": [
+   {
+    "mbid": "0550993e-ddec-468e-b05f-da81bf6f7694",
+    "name": "スピッツ",
+    "score": 0.866025,
+    "signal": "genre"
+   },
+   {
+    "mbid": "6f500293-7396-4903-b4fd-118127d06f9e",
+    "name": "RADWIMPS",
+    "score": 0.866025,
+    "signal": "genre"
+   },
+   {
+    "mbid": "27f0af0e-4d1f-4808-a58b-090e400dcc43",
+    "name": "Mr.Children",
+    "score": 0.707107,
+    "signal": "genre"
+   },
+   {
+    "mbid": "b3120863-d98d-4bad-a637-8abd8cde6685",
+    "name": "Hootie & the Blowfish",
+    "score": 0.707107,
+    "signal": "genre"
+   },
+   {
+    "mbid": "44cf61b8-5197-448a-b82b-cef6ee89fac5",
+    "name": "Paramore",
+    "score": 0.574534,
+    "signal": "genre"
+   },
+   {
+    "mbid": "614e3804-7d34-41ba-857f-811bad7c2b7a",
+    "name": "Dire Straits",
+    "score": 0.520581,
+    "signal": "genre"
+   },
+   {
+    "mbid": "10876f5a-9ac7-49c7-a2b6-46a3f1ac3523",
+    "name": "Andrew Gold",
+    "score": 0.5,
+    "signal": "genre"
+   },
+   {
+    "mbid": "12d432a3-feb0-49b1-a107-d20751880764",
+    "name": "Yann Tiersen",
+    "score": 0.5,
+    "signal": "genre"
+   },
+   {
+    "mbid": "14e410f5-97f2-48ba-b1f7-a3a44cbea05c",
+    "name": "ASIAN KUNG-FU GENERATION",
+    "score": 0.5,
+    "signal": "genre"
+   },
+   {
+    "mbid": "2b9967c7-3246-4658-a561-ded5408dd9af",
+    "name": "Los Lobos",
+    "score": 0.5,
+    "signal": "genre"
+   }
+  ]
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "00641739-0e20-4605-bc16-539026391b1e",
+   "genre",
+   10
+  ],
+  "expected": []
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "0004d643-96e3-486a-bafe-eb792871ce9f",
+   "audio",
+   10
+  ],
+  "expected": []
+ },
+ {
+  "function": "similar_artists",
+  "args": [
+   "00000000-0000-0000-0000-000000000000",
+   "listeners",
+   10
+  ],
+  "expected": []
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "Radiohead",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "name": "Radiohead",
+    "in_catalog": true,
+    "score": 1.0,
+    "matched": "Radiohead"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "radiohed",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+    "name": "Radiohead",
+    "in_catalog": true,
+    "score": 0.533333,
+    "matched": "Radiohead"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "bjork",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "87c5dedd-371d-4a53-9f7f-80522fb7f3cb",
+    "name": "Björk",
+    "in_catalog": true,
+    "score": 1.0,
+    "matched": "Björk"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "beyonce",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "859d0860-d480-4efd-970c-c05d5f1776b8",
+    "name": "Beyoncé",
+    "in_catalog": true,
+    "score": 1.0,
+    "matched": "Beyoncé"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "the beat",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "name": "The Beatles",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Beatles"
+   },
+   {
+    "mbid": "f94b634d-678f-4eb5-a31e-1d1fe7d72fe0",
+    "name": "THE BEATNIKS",
+    "in_catalog": false,
+    "score": 0.9,
+    "matched": "THE BEATNIKS"
+   },
+   {
+    "mbid": "2ba46313-551a-481c-965a-b309d38fca33",
+    "name": "DJ Mitsu The Beats",
+    "in_catalog": false,
+    "score": 0.8,
+    "matched": "DJ Mitsu The Beats"
+   },
+   {
+    "mbid": "cc3054c1-803c-4b55-9c59-200acd60b5e4",
+    "name": "GOT the beat",
+    "in_catalog": false,
+    "score": 0.8,
+    "matched": "GOT the beat"
+   },
+   {
+    "mbid": "5838e55c-7114-4812-97f6-e62f219809e1",
+    "name": "The Ear",
+    "in_catalog": false,
+    "score": 0.45,
+    "matched": "The Ear"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "sigur ros",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "f6f2326f-6b25-4170-b89d-e235b25508e8",
+    "name": "Sigur Rós",
+    "in_catalog": true,
+    "score": 1.0,
+    "matched": "Sigur Rós"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "",
+   10,
+   true
+  ],
+  "expected": []
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "Siddhartha",
+   10,
+   true
+  ],
+  "expected": [
+   {
+    "mbid": "0004d643-96e3-486a-bafe-eb792871ce9f",
+    "name": "Siddhartha",
+    "in_catalog": false,
+    "score": 1.0,
+    "matched": "Siddhartha"
+   }
+  ]
+ },
+ {
+  "function": "search_artists",
+  "args": [
+   "the",
+   15,
+   false
+  ],
+  "expected": [
+   {
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
+    "name": "The Beatles",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Beatles"
+   },
+   {
+    "mbid": "95e1ead9-4d31-4808-a7ac-32c3614c116b",
+    "name": "The Killers",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Killers"
+   },
+   {
+    "mbid": "b071f9fa-14b0-4217-8e97-eb41da73f598",
+    "name": "The Rolling Stones",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Rolling Stones"
+   },
+   {
+    "mbid": "11ae9fbb-f3d7-4a47-936f-4c0a04d3b3b5",
+    "name": "The White Stripes",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The White Stripes"
+   },
+   {
+    "mbid": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
+    "name": "The Cure",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Cure"
+   },
+   {
+    "mbid": "f181961b-20f7-459e-89de-920ef03c7ed0",
+    "name": "The Strokes",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Strokes"
+   },
+   {
+    "mbid": "9efff43b-3b29-4082-824e-bc82f646f93d",
+    "name": "The Doors",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Doors"
+   },
+   {
+    "mbid": "ba0d6274-db14-4ef5-b28d-657ebde1a396",
+    "name": "The Smashing Pumpkins",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Smashing Pumpkins"
+   },
+   {
+    "mbid": "8f92558c-2baa-4758-8c38-615519e9deda",
+    "name": "The Clash",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Clash"
+   },
+   {
+    "mbid": "4a4ee089-93b1-4470-af9a-6ff575d32704",
+    "name": "The Prodigy",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Prodigy"
+   },
+   {
+    "mbid": "d15721d8-56b4-453d-b506-fc915b14cba2",
+    "name": "The Black Keys",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Black Keys"
+   },
+   {
+    "mbid": "23a03e33-a603-404e-bcbf-2c00159d7067",
+    "name": "The Offspring",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Offspring"
+   },
+   {
+    "mbid": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27",
+    "name": "The Smiths",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Smiths"
+   },
+   {
+    "mbid": "c5c2ea1c-4bde-4f4d-bd0b-47b200bf99d6",
+    "name": "The xx",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The xx"
+   },
+   {
+    "mbid": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
+    "name": "The Who",
+    "in_catalog": true,
+    "score": 0.9,
+    "matched": "The Who"
+   }
+  ]
+ }
+]

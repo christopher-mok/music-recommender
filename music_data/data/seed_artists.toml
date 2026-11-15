@@ -1,0 +1,102 @@
+# Seed artists for the music data pipeline
+# Each artist has a 'name' and optional 'country' for disambiguation
+
+[[collect.artists]]
+name = "Radiohead"
+mbid = "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+country = "GB"
+genres = ["alternative rock", "electronic"]
+reason = "Alternative rock / electronic crossover; well documented."
+
+[[collect.artists]]
+name = "Björk"
+country = "IS"
+genres = ["art pop", "electronic"]
+reason = "Art pop / electronic; strong critical and listener footprint."
+
+[[collect.artists]]
+name = "Miles Davis"
+country = "US"
+genres = ["jazz"]
+reason = "Jazz canon; broad historical similarity network."
+
+[[collect.artists]]
+name = "Aphex Twin"
+mbid = "f22942a1-6f70-4f48-866e-238cb2308fbd"
+country = "GB"
+genres = ["electronic", "ambient"]
+reason = "Electronic / ambient; connects several electronic subgenres."
+
+[[collect.artists]]
+name = "Fela Kuti"
+country = "NG"
+genres = ["afrobeat"]
+reason = "Afrobeat; African representation and regional diversity."
+
+[[collect.artists]]
+name = "Missy Elliott"
+country = "US"
+genres = ["hip hop", "R&B"]
+reason = "Hip-hop / R&B; US pop crossover."
+
+[[collect.artists]]
+name = "M.I.A."
+mbid = "7cf0ea9d-86b9-4dad-ba9e-2355a64899ea"
+country = "GB"
+genres = ["electropop", "world"]
+reason = "Electropop / world; multicultural and diaspora perspective."
+
+[[collect.artists]]
+name = "Ólafur Arnalds"
+country = "IS"
+genres = ["neo-classical", "ambient"]
+reason = "Neo-classical / ambient; non-rock instrumental coverage."
+
+[[collect.artists]]
+name = "Tame Impala"
+country = "AU"
+genres = ["psychedelic rock", "pop"]
+reason = "Psychedelic rock / pop; Australian representation."
+
+[[collect.artists]]
+name = "Yoko Ono"
+mbid = "b0b33754-a664-43b7-ba00-be0dc4ec2396"
+country = "JP"
+genres = ["avant-garde", "experimental"]
+reason = "Avant-garde / experimental; non-Western and experimental coverage."
+
+# Pipeline settings
+[collect]
+tracks_per_artist = 5
+similar_limit = 50
+resume = false
+
+[database]
+path = "data/music_metadata_100.db"
+
+[http]
+timeout = 30.0
+max_retries = 5
+retry_delay = 1.0
+
+[cache]
+enabled = true
+read = true
+write = true
+directory = ".cache/music_data"
+ttl_seconds = 0
+
+[listenbrainz]
+enabled = true
+similar_limit = 50
+
+# Last.fm is optional and disabled by default. Consult its terms before caching
+# or redistributing any Last.fm-derived data.
+[lastfm]
+enabled = false
+
+# MusicBrainz User-Agent is read from MUSICBRAINZ_USER_AGENT in .env.
+# Do not commit a contact address in this tracked seed file.
+[musicbrainz]
+enabled = true
+rate_limit = 1.0

@@ -6,12 +6,34 @@ This is the front end, ported from the design mockup. It runs entirely in the br
 
 ## Run it
 
-Requires Node 18 or newer.
+Requires Node 22.13 or newer (the `music_data` TS package uses `node:sqlite`).
 
 ```bash
 npm install
 npm run dev        # http://localhost:5173
 ```
+
+The `music-data` package (`music_data/ts`) is committed prebuilt, and the data it reads is committed in `music_data/api_bundle/`, so you don't need Python to work on the app.
+
+### Working on the data pipeline (optional)
+
+Only needed if you change the data itself. See `music_data/README.md`.
+
+```bash
+cd music_data
+python -m venv .venv
+.venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
+pip install -e ".[dev]"
+copy .env.example .env          # then add your API keys
+```
+
+The full working database is committed gzipped (`music_data/data/music_metadata_100.db.gz`) because the raw file (~120 MB) is over GitHub's 100 MB limit. Unzip it once after cloning (from `music_data/`):
+
+```bash
+python -c "import gzip,shutil; shutil.copyfileobj(gzip.open('data/music_metadata_100.db.gz'), open('data/music_metadata_100.db','wb'))"
+```
+
+After regenerating data, republish the bundle into `music_data/api_bundle/`. If you change `music_data/ts/src`, run `npm run build` in `music_data/ts`. Commit both outputs. Only re-gzip and commit the full DB at milestones; each version adds ~70 MB to the repo history permanently.
 
 Other scripts:
 

@@ -1,0 +1,154 @@
+# Quota seeding slots for `collect --quotas data/genre_quotas.toml`.
+# Each slot runs one MusicBrainz Lucene artist query, ranks the (up to 100)
+# matches by ListenBrainz listener count, and takes the top `count` artists
+# not already chosen. Fields: tag, country, begin (year), type, gender.
+# Syntax: https://musicbrainz.org/doc/MusicBrainz_API/Search#Artist
+
+default_count = 15
+
+# --- Electronic: EDM, dubstep, house ------------------------------------
+[[slots]]
+name = "melodic dubstep"
+query = 'tag:"melodic dubstep"'
+
+[[slots]]
+name = "dubstep"
+query = 'tag:dubstep AND begin:[2000 TO *]'
+
+[[slots]]
+name = "progressive house"
+query = 'tag:"progressive house"'
+
+[[slots]]
+name = "house"
+query = 'tag:house AND begin:[1985 TO *]'
+
+[[slots]]
+name = "future bass"
+query = 'tag:"future bass"'
+count = 10
+
+[[slots]]
+name = "melodic bass / edm"
+query = 'tag:edm AND begin:[2005 TO *]'
+
+# --- Synthwave / retro ---------------------------------------------------
+[[slots]]
+name = "synthwave"
+query = 'tag:synthwave'
+count = 20
+
+[[slots]]
+name = "retrowave / outrun"
+query = 'tag:retrowave OR tag:outrun OR tag:darksynth'
+count = 10
+
+[[slots]]
+name = "chillwave / dream pop"
+query = 'tag:chillwave OR tag:"dream pop"'
+count = 10
+
+# --- Pop / indie pop, recent --------------------------------------------
+[[slots]]
+name = "indie pop (2010+)"
+query = 'tag:"indie pop" AND begin:[2008 TO *]'
+count = 20
+
+[[slots]]
+name = "alt pop / electropop (2010+)"
+query = '(tag:"alternative pop" OR tag:electropop OR tag:"synth-pop") AND begin:[2008 TO *]'
+count = 20
+
+[[slots]]
+name = "pop (2015+ debuts)"
+query = 'tag:pop AND begin:[2012 TO *] AND type:group'
+count = 10
+
+[[slots]]
+name = "pop solo (born 1995+)"
+query = 'tag:pop AND begin:[1995 TO *] AND type:person'
+count = 15
+
+[[slots]]
+name = "bedroom pop / hyperpop"
+query = 'tag:"bedroom pop" OR tag:hyperpop'
+count = 10
+
+# --- Under-represented genres -------------------------------------------
+[[slots]]
+name = "afrobeats"
+query = 'tag:afrobeats OR tag:afropop OR tag:amapiano'
+group = "region-genre"
+
+[[slots]]
+name = "reggaeton / latin trap"
+query = 'tag:reggaeton OR tag:"latin trap" OR tag:"trap latino"'
+group = "region-genre"
+
+[[slots]]
+name = "regional mexican"
+query = 'tag:"regional mexican" OR tag:"corridos tumbados" OR tag:norteño OR tag:banda'
+count = 10
+group = "region-genre"
+
+[[slots]]
+name = "latin pop"
+query = 'tag:"latin pop"'
+count = 10
+group = "region-genre"
+
+[[slots]]
+name = "k-pop (2015+)"
+query = 'tag:k-pop AND begin:[2012 TO *]'
+count = 10
+group = "region-genre"
+
+[[slots]]
+name = "j-pop / j-rock / anime"
+query = 'tag:j-pop OR tag:j-rock OR tag:anime'
+group = "region-genre"
+
+[[slots]]
+name = "bollywood / filmi"
+query = 'tag:filmi OR tag:bollywood'
+count = 10
+group = "region-genre"
+
+[[slots]]
+name = "arabic pop"
+query = 'tag:"arabic pop" OR tag:"arabic" OR tag:khaleeji'
+count = 8
+group = "region-genre"
+
+[[slots]]
+name = "country (modern)"
+query = '(tag:country OR tag:"contemporary country") AND begin:[1985 TO *]'
+count = 12
+
+[[slots]]
+name = "gospel / christian"
+query = 'tag:gospel OR tag:"contemporary christian"'
+count = 8
+
+[[slots]]
+name = "classical / film score"
+query = 'tag:"film score" OR tag:"video game music" OR tag:soundtrack'
+count = 10
+
+[[slots]]
+name = "brazil"
+query = 'country:BR AND (tag:mpb OR tag:"funk brasileiro" OR tag:sertanejo OR tag:"bossa nova")'
+count = 10
+group = "region"
+
+[[slots]]
+name = "nigeria / ghana / south africa"
+query = 'country:NG OR country:GH OR country:ZA'
+count = 10
+group = "region"
+
+[[slots]]
+name = "france / germany (recent)"
+query = '(country:FR OR country:DE) AND begin:[2000 TO *]'
+count = 10
+group = "region"
