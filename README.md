@@ -100,3 +100,6 @@ There is no router and no state library. The current page is a field in the stor
 | Recommendations | Keyword matching on tags in `lib/recommend.ts` | Call a real recommender; the UI only depends on the `Rec` types |
 | Rank on Crate | A stand-in formula in `pages/Profile.tsx` | Compute from real users' ranked-song counts |
 | Cover art | Generated from each artist's colour | Use real artwork |
+
+## DB has been added
+v1 has +1k artist
